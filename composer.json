@@ -11,7 +11,10 @@
     "autoload": {
         "psr-4": {
             "MuCTS\\Sobot\\": "src/"
-        }
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
     },
     "authors": [
         {

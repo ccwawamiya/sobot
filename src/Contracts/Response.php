@@ -104,9 +104,9 @@ abstract class Response
      */
     public function iniArray(string $key, array $value)
     {
-        $name  = strtr(ucwords(strtr($key, ['_' => ' '])), [' ' => '']);
+        $name = underline_to_hump($key);
         $class = in_array($key, $this->sub_fields) ? get_class($this) : get_class($this) . '\\' . $name;
-        $class = class_exists($class) ? $class : dirname(get_class($this)) . '\\' . $name;
+        $class = class_exists($class) ? $class : get_namespace($this) . '\\' . $name;
 
         if (class_exists($class)) {
             if ($this->isKeyValue($value)) {
@@ -130,7 +130,7 @@ abstract class Response
      */
     public function __get($name)
     {
-        $method = 'get' . strtr(ucwords(strtr($name, ['_' => ' '])), [' ' => '']);
+        $method = 'get' . underline_to_hump($name);
         if (method_exists($this, $method)) {
             return $this->{$method}();
         }

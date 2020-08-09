@@ -67,7 +67,7 @@ abstract class Request
      */
     public function __call($name, $arguments)
     {
-        $name = strtolower(trim(preg_replace("/[A-Z]/", "_\\0", $name), "_"));
+        $name = hump_to_underline($name);
         if (strpos($name, 'where') === 0) {
             $name = substr($name, 6);
         }
@@ -83,7 +83,7 @@ abstract class Request
      */
     public function __set($name, $value)
     {
-        $name = strtolower(trim(preg_replace("/[A-Z]/", "_\\0", $name), "_"));
+        $name = hump_to_underline($name);
         $this->param[$name] = $value;
     }
 }

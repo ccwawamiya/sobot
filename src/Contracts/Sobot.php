@@ -290,7 +290,7 @@ abstract class Sobot
      */
     public function __get($name)
     {
-        $class = get_class($this) . '\\' . strtr(ucwords(strtr($name, ['_' => ' '])), [' ' => '']);
+        $class = get_class($this) . '\\' . underline_to_hump($name);
         if (class_exists($class)) {
             $this->{$name} = new $class($this->config, $this->cache);
             return $this->{$name};
@@ -307,7 +307,7 @@ abstract class Sobot
     public function __set($name, $value)
     {
         if (!is_object($value)) {
-            $name = strtr(ucwords(strtr($name, ['_' => ' '])), [' ' => '']);
+            $name = underline_to_hump($name);
             $this->request->{$name}($name);
         } else {
             $this->{$name} = $value;

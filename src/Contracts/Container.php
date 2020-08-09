@@ -44,8 +44,8 @@ abstract class Container
      */
     public function __call($name, $arguments)
     {
-        $name = strtr(ucwords(strtr($name, ['_' => ' '])), [' ' => '']);
-        $class = dirname(get_class($this)) . '\\' . $name;
+        $name = underline_to_hump($name);
+        $class = get_namespace($this) . '\\' . $name;
         if (class_exists($class)) {
             return new $class($this->config, $this->cache);
         }
