@@ -1,0 +1,22 @@
+{
+    "name": "mucts/sobot",
+    "description": "Sobot Open API",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "^6.3",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MuCTS\\Sobot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "herry",
+            "email": "yuandeng@aliyun.com"
+        }
+    ]
+}

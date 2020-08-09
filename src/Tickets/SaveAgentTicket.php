@@ -1,0 +1,81 @@
+<?php
+/**
+ * This file is part of the mucts.com.
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ *
+ * @version 1.0
+ * @author herry<yuandeng@aliyun.com>
+ * @copyright © 2020  MuCTS.com All Rights Reserved.
+ */
+
+namespace MuCTS\Sobot\Tickets;
+
+
+use MuCTS\Sobot\Contracts\Sobot;
+
+/**
+ * Class SaveAgentTicket
+ * 创建工单（坐席）
+ *
+ * 备注：
+ * 1、此处所传工单自定义字段，必须是所传工单分类id关联工单模板中的自定义字段。
+ * 2、分类关联模板中的自定义字段通过“查询工单分类关联的工单模板信息“接口获取。
+ * 3、工单分类ID需要调用“查询数据字典”中工单分类获取具体值。
+ * 4、如需上传附件，需要调用“附件上传（坐席）”进行。
+ *
+ * @property-write string $companyid 企业ID
+ * @property-write string $ticket_title 工单标题
+ * @property-write string $userid 客户ID
+ * @property-write string $ticket_content 工单问题描述
+ * @property-write int $ticket_from 工单来源，1 PC客户留言，2 H5客户留言，3 微信公众号客户留言，4 APP客户留言，12 邮件留言，13语音留言，16微信小程序客户留言，17企业微信客户留言
+ * @property-write string $deal_groupid 受理技能组ID
+ * @property-write string $deal_group_name 受理技能组名称
+ * @property-write string $deal_agentid 受理坐席ID
+ * @property-write string $deal_agent_name 受理坐席名称
+ * @property-write string $create_agentid 创建坐席ID
+ * @property-write string $create_agent_name 创建坐席名称
+ * @property-write string $recordid 记录ID,呼叫记录ID或会话记录ID
+ * @property-write int $ticket_status 工单状态,0尚未受理，1受理中，2等待回复，3已解决，99已关闭，98已删除
+ * @property-write int $ticket_level 工单优先级,0低，1中，2高，3紧急
+ * @property-write string $ticket_typeid 工单分类ID,叶子节点的分类ID
+ * @property-write string $file_str 附件路径，多个附件，附件之间采用英文分号";"隔开
+ * @property-write array $copy_agent 抄送坐席，格式：[["agent_name"=>"坐席名称","agent_mail"=>"坐席邮箱"]]
+ * @property-write array $extend_fields 工单自定义字段信息，格式：[["fieldid"=>"自定义字段ID","field_value"=>"自定义字段值"]]
+ *
+ * @method SaveAgentTicket companyid(string $companyid) 企业ID
+ * @method SaveAgentTicket ticketTitle(string $ticketTitle) 工单标题
+ * @method SaveAgentTicket userid(string $userid) 客户ID
+ * @method SaveAgentTicket ticketContent(string $ticketContent) 工单问题描述
+ * @method SaveAgentTicket ticketFrom(string $ticketFrom) 工单来源,1 PC客户留言，2 H5客户留言，3 微信公众号客户留言，4 APP客户留言，12 邮件留言，13语音留言，16微信小程序客户留言，17企业微信客户留言
+ * @method SaveAgentTicket dealGroupid(string $dealGroupid) 受理技能组ID
+ * @method SaveAgentTicket dealGroupName(string $dealGroupName) 受理技能组名称
+ * @method SaveAgentTicket dealAgentid(string $dealAgentid) 受理坐席ID
+ * @method SaveAgentTicket dealAgentName(string $dealAgentName) 受理坐席名称
+ * @method SaveAgentTicket createAgentid(string $createAgentid) 创建坐席ID
+ * @method SaveAgentTicket createAgentName(string $createAgentName) 创建坐席名称
+ * @method SaveAgentTicket recordid(string $recordid) 记录ID,呼叫记录ID或会话记录ID
+ * @method SaveAgentTicket ticketStatus(int $ticketStatus) 工单状态,0尚未受理，1受理中，2等待回复，3已解决，99已关闭，98已删除
+ * @method SaveAgentTicket ticketLevel(int $ticketLevel) 工单优先级,0低，1中，2高，3紧急
+ * @method SaveAgentTicket ticketTypeid(string $ticketTypeid) 工单分类ID,叶子节点的分类ID
+ * @method SaveAgentTicket fileStr(string $fileStr) 附件路径,多个附件，附件之间采用英文分号";"隔开
+ * @method SaveAgentTicket copyAgent(array $copyAgent) 抄送坐席，格式：[["agent_name"=>"坐席名称","agent_mail"=>"坐席邮箱"]]
+ * @method SaveAgentTicket pushCopyAgentItem(string $agentName,string $agentMail) 追加抄送坐席项
+ * @method SaveAgentTicket extendFields(array $extendFields) 工单自定义字段信息，格式：[["fieldid"=>"自定义字段ID","field_value"=>"自定义字段值"]]
+ * @method SaveAgentTicket pushExtendFieldsItem(string $fieldid, string $fieldValue) 追加工单自定义字段信息项
+ * @package MuCTS\Sobot\Tickets
+ */
+class SaveAgentTicket extends Sobot
+{
+
+    public function getRequestMethod(): string
+    {
+        return self::METHOD_POST;
+    }
+
+    public function getRequestPath(): string
+    {
+        return '/api/ws/5/ticket/save_agent_ticket';
+    }
+}

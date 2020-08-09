@@ -1,0 +1,29 @@
+<?php
+/**
+ * This file is part of the mucts.com.
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ *
+ * @version 1.0
+ * @author herry<yuandeng@aliyun.com>
+ * @copyright © 2020  MuCTS.com All Rights Reserved.
+ */
+
+namespace MuCTS\Sobot\Users\QueryUserFixedExtendFields\Response;
+
+
+use MuCTS\Sobot\Contracts\Response;
+use MuCTS\Sobot\Users\QueryUserFixedExtendFields\Response\Item\ExtendFields;
+
+/**
+ * Class Item
+ * @property-read string $companyid 公司ID
+ * @property-read string $operate_type 自定义字段类型,客户自定义字段
+ * @property-read ExtendFields[] $extend_fields 扩展字段列表	
+ * @package MuCTS\Sobot\Users\QueryUserFixedExtendFields\Response
+ */
+class Item extends Response
+{
+
+}
