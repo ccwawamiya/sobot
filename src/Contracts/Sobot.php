@@ -8,6 +8,7 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 use MuCTS\Sobot\Code;
 use MuCTS\Sobot\Exceptions\ConfigException;
+use MuCTS\Sobot\Exceptions\NotFoundException;
 use MuCTS\Sobot\Exceptions\ResponseException;
 use MuCTS\Sobot\Exceptions\SobotException;
 use MuCTS\Sobot\Token\Token;
@@ -34,9 +35,9 @@ abstract class Sobot
     /** @var int 尝试次数 */
     private $tries = 0;
 
-    const METHOD_GET    = 'get';
-    const METHOD_POST   = 'post';
-    const METHOD_PUT    = 'put';
+    const METHOD_GET = 'get';
+    const METHOD_POST = 'post';
+    const METHOD_PUT = 'put';
     const METHOD_DELETE = 'delete';
 
     /**
@@ -48,7 +49,7 @@ abstract class Sobot
     public function __construct(array $config, ?Cache $cache = null)
     {
         $this->setConfig($config);
-        $this->host  = 'https://www.sobot.com';
+        $this->host = 'https://www.sobot.com';
         $this->cache = $cache;
     }
 
@@ -124,6 +125,7 @@ abstract class Sobot
      * @throws SobotException
      * @throws \GuzzleHttp\Exception\GuzzleException
      * @throws ConfigException
+     * @throws NotFoundException
      * @author herry.yao <yuandeng@aliyun.com>
      * @version 1.2.2
      * @date 2020-08-05
@@ -140,7 +142,7 @@ abstract class Sobot
         } catch (\Exception $exception) {
             throw  new SobotException($exception->getMessage(), $exception->getCode(), $exception->getPrevious());
         }
-        $status  = $response->getStatusCode();
+        $status = $response->getStatusCode();
         $content = $response->getBody();
         if ($status != 200) {
             throw new ResponseException('Abnormal response', $status, $content);
@@ -157,7 +159,10 @@ abstract class Sobot
             throw new ResponseException(@$res['ret_msg'] ?: 'Sobot Response err', @$res['ret_code'] ?: Code::SYSTEM_ERR, $content);
         }
         $class = get_class($this) . '\\Response';
-        return new $class($res);
+        if (class_exists($class)) {
+            return new $class($res);
+        }
+        throw new NotFoundException(sprintf('Class[%s] File Not Found.', $class));
     }
 
     /**
@@ -208,7 +213,7 @@ abstract class Sobot
      */
     public function addHeader($key, $value = null)
     {
-        $headers       = is_array($key) ? $key : [$key => $value];
+        $headers = is_array($key) ? $key : [$key => $value];
         $this->headers = array_merge($this->headers, $headers);
         return $this;
     }
