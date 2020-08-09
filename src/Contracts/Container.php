@@ -45,19 +45,19 @@ abstract class Container
     public function __call($name, $arguments)
     {
         $name = underline_to_hump($name);
-        $class = get_namespace($this) . '\\' . $name;
-        if (class_exists($class)) {
-            return new $class($this->config, $this->cache);
-        }
         $class = get_class($this) . '\\' . $name;
         if (class_exists($class)) {
             return new $class($this->config, $this->cache);
         }
-        $class = get_class($this) . '\\' . $name . '\\Client';
+        $class = get_namespace($this) . '\\' . $name;
         if (class_exists($class)) {
             return new $class($this->config, $this->cache);
         }
-        $class = get_class($this) . '\\' . $name . '\\' . $name;
+        $class = get_namespace($this) . '\\' . $name . '\\Client';
+        if (class_exists($class)) {
+            return new $class($this->config, $this->cache);
+        }
+        $class = get_namespace($this) . '\\' . $name . '\\' . $name;
         if (class_exists($class)) {
             return new $class($this->config, $this->cache);
         }
