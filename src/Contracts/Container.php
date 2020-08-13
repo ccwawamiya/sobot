@@ -36,7 +36,7 @@ abstract class Container
             $cache = new $cache;
         }
         if (!is_null($cache)) {
-            if (in_array(Cache::class, class_implements($cache))) {
+            if (is_object($cache) && in_array(Cache::class, class_implements($cache))) {
                 $this->cache = $cache;
             } else {
                 throw new ParamException(sprintf('Cache Not Implements %s', Cache::class));
