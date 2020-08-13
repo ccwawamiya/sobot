@@ -14,11 +14,11 @@ namespace MuCTS\Sobot\Tickets\UploadFile;
 
 /**
  * Class Request
- * @property-write $file 文件流,选择要上传的文件
- * @property-write $file_num_key 上传文件标识,随机生成的值，用于判断上传文件数量
+ * @property-write string $file 文件流,选择要上传的文件
+ * @property-write string $file_num_key 上传文件标识,随机生成的值，用于判断上传文件数量
  *
- * @method Request file($file) 文件流, 选择要上传的文件
- * @method Request fileNumKey($fileNumKey) 上传文件标识, 随机生成的值，用于判断上传文件数量
+ * @method Request file(string $file) 文件流, 选择要上传的文件
+ * @method Request fileNumKey(string $fileNumKey) 上传文件标识, 随机生成的值，用于判断上传文件数量
  * @package MuCTS\Sobot\Tickets\UploadFile
  */
 class Request extends \MuCTS\Sobot\Contracts\Request
