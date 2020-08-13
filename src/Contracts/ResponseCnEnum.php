@@ -2,7 +2,11 @@
 
 
 namespace MuCTS\Sobot\Contracts;
-
+/**
+ * Trait ResponseCnEnum
+ * @mixin Response
+ * @package MuCTS\Sobot\Contracts
+ */
 trait ResponseCnEnum
 {
     /**

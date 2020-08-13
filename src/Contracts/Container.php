@@ -14,6 +14,7 @@ namespace MuCTS\Sobot\Contracts;
 
 
 use MuCTS\Sobot\Exceptions\NotFoundException;
+use MuCTS\Sobot\Exceptions\ParamException;
 
 abstract class Container
 {
@@ -26,12 +27,20 @@ abstract class Container
      * Container constructor.
      * @param array $config
      * @param string|Cache|null $cache
+     * @throws ParamException
      */
     public function __construct(array $config, $cache = null)
     {
         $this->config = $config;
-        if (is_string($cache)) {
-            $cache = class_exists($cache) ? new $cache() : null;
+        if (is_string($cache) && class_exists($cache)) {
+            $cache = new $cache;
+        }
+        if (!is_null($cache)) {
+            if (in_array(Cache::class, class_implements($cache))) {
+                $this->cache = $cache;
+            } else {
+                throw new ParamException(sprintf('Cache Not Implements %s', Cache::class));
+            }
         }
         $this->cache = $cache;
     }
