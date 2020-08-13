@@ -24,11 +24,11 @@ use MuCTS\Sobot\Contracts\Sobot;
  * 客户创建工单或回复工单时，上传一个或多个附件。
  * 先上传附件，再调用“创建工单（客户）”或者“回复工单（客户）”。
  *
- * @property-write $file 文件流,选择要上传的文件
- * @property-write $file_num_key 上传文件标识,随机生成的值，用于判断上传文件数量
+ * @property-write string $file 文件流,选择要上传的文件
+ * @property-write string $file_num_key 上传文件标识,随机生成的值，用于判断上传文件数量
  *
- * @method UserUploadFile file($file) 文件流,选择要上传的文件
- * @method UserUploadFile fileNumKey($fileNumKey) 上传文件标识,随机生成的值，用于判断上传文件数量
+ * @method UserUploadFile file(string $file) 文件流,选择要上传的文件
+ * @method UserUploadFile fileNumKey(string $fileNumKey) 上传文件标识,随机生成的值，用于判断上传文件数量
  * @package MuCTS\Sobot\Tickets
  */
 class UserUploadFile extends Sobot
