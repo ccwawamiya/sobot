@@ -35,7 +35,7 @@ abstract class Response
      * @version 1.2.2
      * @date 2020-08-05
      */
-    public function init($result)
+    protected function init($result)
     {
         foreach ($result as $key => $value) {
             if (is_array($value)) {
@@ -55,7 +55,7 @@ abstract class Response
      * @version 1.2.2
      * @date 2020-08-05
      */
-    public function isKeyValue(array $array)
+    protected function isKeyValue(array $array)
     {
         foreach ($array as $key => $value) {
             if (is_numeric($key)) {
@@ -74,7 +74,7 @@ abstract class Response
      * @version 1.2.2
      * @date 2020-08-05
      */
-    public function isArr(array $arr)
+    protected function isArr(array $arr)
     {
         foreach ($arr as $key => $value) {
             if (is_numeric($key)) {
@@ -92,6 +92,19 @@ abstract class Response
     }
 
     /**
+     * 获取类型文件
+     *
+     * @param string $key
+     * @return string
+     */
+    public function getClassName(string $key)
+    {
+        $name = underline_to_hump($key);
+        $class = in_array($key, $this->sub_fields) ? get_class($this) : get_class($this) . '\\' . $name;
+        return class_exists($class) ? $class : get_namespace($this) . '\\' . $name;
+    }
+
+    /**
      * 初始化响应数据
      *
      * @param string $key
@@ -102,11 +115,9 @@ abstract class Response
      * @version 1.2.2
      * @date 2020-08-05
      */
-    public function iniArray(string $key, array $value)
+    protected function iniArray(string $key, array $value)
     {
-        $name = underline_to_hump($key);
-        $class = in_array($key, $this->sub_fields) ? get_class($this) : get_class($this) . '\\' . $name;
-        $class = class_exists($class) ? $class : get_namespace($this) . '\\' . $name;
+        $class = $this->getClassName($key);
 
         if (class_exists($class)) {
             if ($this->isKeyValue($value)) {
