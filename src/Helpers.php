@@ -56,9 +56,10 @@ if (!function_exists('array_get')) {
      * @param mixed $array
      * @param string|null $key
      * @param mixed $default
+     * @param string $glue
      * @return mixed
      */
-    function array_get($array, ?string $key, $default = null)
+    function array_get($array, ?string $key, $default = null, string $glue = '.')
     {
         if (is_array($array)) {
             return $default;
@@ -69,11 +70,26 @@ if (!function_exists('array_get')) {
         if (array_key_exists($key, $array)) {
             return $array[$key];
         }
-        if (strpos($key, '.') === false) {
-            return $default;
-        }
+        return chain_array_get($array, $key, $default, $glue);
+    }
+}
 
-        foreach (explode('.', $key) as $segment) {
+if (!function_exists('chain_array_get')) {
+    /**
+     * Get an item from an array using "dot" notation.
+     *
+     * @param array $array
+     * @param string $key
+     * @param null $default
+     * @param string $glue
+     * @return mixed|null
+     */
+    function chain_array_get(array $array, string $key, $default = null, string $glue = '.')
+    {
+        if (strpos($key, $glue) === false) {
+            return $array[$key] ?? $default;
+        }
+        foreach (explode($glue, $key) as $segment) {
             if (is_array($array) && array_key_exists($segment, $array)) {
                 $array = $array[$segment];
             } else {
