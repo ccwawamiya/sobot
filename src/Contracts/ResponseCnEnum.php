@@ -19,7 +19,7 @@ trait ResponseCnEnum
      */
     public function getStartTypeCn()
     {
-        /** @var int $startType */
+        /** @var int|null $startType */
         $startType = $this->start_type;
         if (is_null($startType)) return null;
         $startTypeCn = [
@@ -39,7 +39,7 @@ trait ResponseCnEnum
      */
     public function getTicketStatusCn()
     {
-        /** @var int $ticketStatus */
+        /** @var int|null $ticketStatus */
         $ticketStatus = $this->ticket_status;
         if (is_null($ticketStatus)) return null;
         $ticketStatusCn = [
@@ -63,7 +63,7 @@ trait ResponseCnEnum
      */
     public function getTicketLevelCn()
     {
-        /** @var int $ticketLevel */
+        /** @var int|null $ticketLevel */
         $ticketLevel = $this->ticket_level;
         if (is_null($ticketLevel)) return null;
         $ticketLevelCn = [
@@ -85,7 +85,7 @@ trait ResponseCnEnum
      */
     public function getTicketFromCn()
     {
-        /** @var int $ticketFrom */
+        /** @var int|null $ticketFrom */
         $ticketFrom = $this->ticket_from;
         if (is_null($ticketFrom)) return null;
         $ticketFromCn = [
@@ -120,7 +120,7 @@ trait ResponseCnEnum
      */
     public function getReplyTypeCn()
     {
-        /** @var int $replyType */
+        /** @var int|null $replyType */
         $replyType = $this->reply_type;
         if (is_null($replyType)) return null;
         $replyTypeCn = [
@@ -140,7 +140,7 @@ trait ResponseCnEnum
      */
     protected function getFieldTypeCn()
     {
-        /** @var int $fieldType */
+        /** @var int|null $fieldType */
         $fieldType = $this->field_type;
         if (is_null($fieldType)) return null;
         $fieldTypeCn = [
@@ -166,7 +166,7 @@ trait ResponseCnEnum
      */
     public function getLogFromCn()
     {
-        /** @var int $logFrom */
+        /** @var int|null $logFrom */
         $logFrom = $this->log_from;
         if (is_null($logFrom)) return null;
         $logFromCn = [
@@ -183,7 +183,7 @@ trait ResponseCnEnum
      */
     public function getSenderTypeCn()
     {
-        /** @var int $senderType */
+        /** @var int|null $senderType */
         $senderType = $this->sender_type;
         if (is_null($senderType)) return null;
         $senderTypeCn = [
@@ -200,7 +200,7 @@ trait ResponseCnEnum
      */
     public function getReceiverTypeCn()
     {
-        /** @var int $receiverType */
+        /** @var int|null $receiverType */
         $receiverType = $this->receiver_type;
         if (is_null($receiverType)) return null;
         $receiverTypeCn = [
@@ -218,7 +218,7 @@ trait ResponseCnEnum
      */
     public function getMsgTypeCn()
     {
-        /** @var int $msgType */
+        /** @var int|null $msgType */
         $msgType = $this->msg_type;
         if (is_null($msgType)) return null;
         $msgTypeCn = [
@@ -236,7 +236,7 @@ trait ResponseCnEnum
      */
     public function getAgentStatusCn()
     {
-        /** @var int $agentStatus */
+        /** @var int|null $agentStatus */
         $agentStatus = $this->agent_status;
         if (is_null($agentStatus)) return null;
         $agentStatusCn = [
