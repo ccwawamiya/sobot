@@ -62,7 +62,7 @@ abstract class Sobot
      * @param bool $isRequired
      * @throws ConfigException
      */
-    public function checkConfig(string $key, bool $isRequired = true)
+    protected function checkConfig(string $key, bool $isRequired = true)
     {
         $value = array_get($this->config, $key);
         if ($isRequired && empty($value)) {
