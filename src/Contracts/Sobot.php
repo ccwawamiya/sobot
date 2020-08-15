@@ -56,7 +56,25 @@ abstract class Sobot
     }
 
     /**
-     * 测试配置
+     * 校验配置参数
+     *
+     * @param string $key
+     * @param bool $isRequired
+     * @throws ConfigException
+     */
+    public function checkConfig(string $key, bool $isRequired = true)
+    {
+        $value = array_get($this->config, $key);
+        if ($isRequired && empty($value)) {
+            throw new ConfigException(sprintf('%s cannot be empty', $key));
+        }
+        if ($value && !is_string($value)) {
+            throw new ConfigException(sprintf('please enter the correct %s', $key));
+        }
+    }
+
+    /**
+     * 设置配置
      *
      * @param array $config
      * @throws ConfigException
@@ -66,19 +84,9 @@ abstract class Sobot
      */
     public function setConfig(array $config): void
     {
-        if (!array_key_exists('app_id', $config) || empty($config['app_id'])) {
-            throw new ConfigException('app id can not be empty');
-        }
-        if (!is_string($config['app_id'])) {
-            throw new ConfigException('please enter the correct app id');
-        }
-        if (!array_key_exists('app_key', $config) || empty($config['app_key'])) {
-            throw new ConfigException('app key can not be empty');
-        }
-        if (!is_string($config['app_key'])) {
-            throw new ConfigException('please enter the correct app key');
-        }
         $this->config = $config;
+        $this->checkConfig('app_id');
+        $this->checkConfig('app_key');
     }
 
     /**
