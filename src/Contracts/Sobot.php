@@ -4,6 +4,7 @@
 namespace MuCTS\Sobot\Contracts;
 
 
+use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 use MuCTS\Sobot\Code;
@@ -12,6 +13,7 @@ use MuCTS\Sobot\Exceptions\NotFoundException;
 use MuCTS\Sobot\Exceptions\ResponseException;
 use MuCTS\Sobot\Exceptions\SobotException;
 use MuCTS\Sobot\Token\Token;
+use Psr\Http\Message\StreamInterface;
 
 /**
  * Class Sobot
@@ -32,8 +34,8 @@ abstract class Sobot
     protected $headers = [];
     /** @var string */
     protected $contentType = 'json';
-    /** @var int 尝试次数 */
-    private $tries = 0;
+    /** @var bool 尝试次数 */
+    private $updatingToken = false;
 
     const METHOD_GET = 'get';
     const METHOD_POST = 'post';
@@ -118,6 +120,46 @@ abstract class Sobot
     }
 
     /**
+     * 网络请求
+     *
+     * @return StreamInterface
+     * @throws ConfigException
+     * @throws ResponseException
+     * @throws SobotException
+     * @throws \GuzzleHttp\Exception\GuzzleException
+     */
+    protected function httpRequest(): StreamInterface
+    {
+        $params = $this->getRequestParam()->toArray();
+        $method = $this->getRequestMethod();
+        $client = new Client(["headers" => $this->getHeader(), "timeout" => $this->getTimeout()]);
+        try {
+            $response = $client->request($method, $this->getRequestUrl(), [$this->getContentType() => $params]);
+        } catch (RequestException $exception) {
+            $response = $exception->getResponse();
+        } catch (Exception $exception) {
+            throw  new SobotException($exception->getMessage(), $exception->getCode(), $exception->getPrevious());
+        }
+        $status = $response->getStatusCode();
+        $content = $response->getBody();
+        if ($status != 200) {
+            throw new ResponseException('Abnormal response', $status, $content);
+        }
+        return $content;
+    }
+
+    /**
+     * 确认是否是Token失效
+     *
+     * @param string $retCode
+     * @return bool
+     */
+    protected function tokenIsInvalid(string $retCode)
+    {
+        return !$this->updatingToken && $retCode == Code::TOKEN_IS_INVALID && !($this instanceof Token);
+    }
+
+    /**
      * 接口请求
      *
      * @return Response
@@ -132,31 +174,17 @@ abstract class Sobot
      */
     public function request(): Response
     {
-        $params = $this->getRequestParam()->toArray();
-        $method = $this->getRequestMethod();
-        $client = new Client(["headers" => $this->getHeader(), "timeout" => $this->getTimeout()]);
-        try {
-            $response = $client->request($method, $this->getRequestUrl(), [$this->getContentType() => $params]);
-        } catch (RequestException $exception) {
-            $response = $exception->getResponse();
-        } catch (\Exception $exception) {
-            throw  new SobotException($exception->getMessage(), $exception->getCode(), $exception->getPrevious());
-        }
-        $status = $response->getStatusCode();
-        $content = $response->getBody();
-        if ($status != 200) {
-            throw new ResponseException('Abnormal response', $status, $content);
-        }
+        $content = $this->httpRequest();
         $res = json_decode($content, true);
-        if (!is_array($res) || !array_key_exists('ret_code', $res) || $res['ret_code'] != Code::SUCCESS_CODE) {
-            $retCode = @$res['ret_code'];
+        $retCode = array_get($res, 'ret_code', Code::SYSTEM_ERR);
+
+        if ($retCode != Code::SUCCESS_CODE) {
             // 如果是TOKEN失效重新获取
-            if (!$this->tries && $retCode == Code::TOKEN_IS_INVALID && !($this instanceof Token)) {
-                (new Token($this->config, $this->cache))->getToken(true);
-                $this->tries++;
+            if ($this->tokenIsInvalid($retCode)) {
+                $this->updatingToken = true;
                 return $this->request();
             }
-            throw new ResponseException(@$res['ret_msg'] ?: 'Sobot Response err', @$res['ret_code'] ?: Code::SYSTEM_ERR, $content);
+            throw new ResponseException(array_get($res, 'ret_msg', 'Sobot Response err'), $retCode, $content);
         }
         $class = get_class($this) . '\\Response';
         if (class_exists($class)) {
@@ -196,7 +224,7 @@ abstract class Sobot
     protected function getHeader(): array
     {
         if (!($this instanceof Token)) {
-            $this->addHeader('token', (new Token($this->config, $this->cache))->getToken());
+            $this->addHeader('token', (new Token($this->config, $this->cache))->getToken($this->updatingToken));
         }
         return $this->headers;
     }
