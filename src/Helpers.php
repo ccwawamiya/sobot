@@ -86,7 +86,7 @@ if (!function_exists('chain_array_get')) {
      */
     function chain_array_get(array $array, string $key, $default = null, string $glue = '.')
     {
-        if (strpos($key, $glue) === false) {
+        if (strlen($glue) == 0 || strpos($key, $glue) === false) {
             return $array[$key] ?? $default;
         }
         foreach (explode($glue, $key) as $segment) {
