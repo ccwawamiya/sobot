@@ -37,9 +37,7 @@ class Items extends Response
      */
     public function getDepartTypeCn()
     {
-        /** @var string|null $departType */
         $departType = $this->depart_type;
-        if(is_null($departType)) return null;
         $departType = explode(',', $departType);
         $departTypeCn = [
             1 => '在线',

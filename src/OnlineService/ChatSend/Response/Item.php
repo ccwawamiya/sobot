@@ -29,9 +29,7 @@ class Item extends Response
      */
     public function getStatusCn()
     {
-        /** @var int|null $status */
         $status = $this->status;
-        if (is_null($status)) return null;
         $statusCn = [
             1 => '成功',
             2 => '用户没有跟客服建立连接'

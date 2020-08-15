@@ -43,9 +43,7 @@ class AdminList extends Response
      */
     public function getStatusCn()
     {
-        /** @var int|null $status */
         $status = $this->status;
-        if (is_null($status)) return null;
         $statusCn = [
             1 => '在线',
             2 => '忙碌'
@@ -60,7 +58,6 @@ class AdminList extends Response
      */
     public function getStatusCodeCn()
     {
-        /** @var int|null $statusCode */
         $statusCode = $this->status_code;
         $statusCodeCn = [
             3 => '小休',

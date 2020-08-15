@@ -29,9 +29,7 @@ class Item extends Response
      */
     public function getStatusCn()
     {
-        /** @var int|null $status */
         $status = $this->status;
-        if (is_null($status)) return null;
         return $status == 1 ? '成功' : '失败';
     }
 }

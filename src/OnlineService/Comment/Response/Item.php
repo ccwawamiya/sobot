@@ -30,9 +30,7 @@ class Item extends Response
      */
     public function getStatusCn()
     {
-        /** @var int|null $status */
         $status = $this->status;
-        if (is_null($status)) return null;
         $statusCn = [
             0 => '失败',
             1 => '成功',

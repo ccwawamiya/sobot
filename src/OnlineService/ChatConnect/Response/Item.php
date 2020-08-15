@@ -35,9 +35,7 @@ class Item extends Response
      */
     public function getStatusCn()
     {
-        /** @var int|null $status */
         $status = $this->status;
-        if (is_null($status)) return null;
         $statusCn = [
             -1 => '重复请求，拒绝处理',
             0 => '排队',
