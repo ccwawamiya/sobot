@@ -30,18 +30,15 @@ class Item extends Response
      */
     public function getStatusCn()
     {
-        $status = intval($this->status);
-        switch ($status) {
-            case 0:
-                return '失败';
-            case 1:
-                return '成功';
-            case 2:
-                return '已评价';
-            case 3:
-                return '无咨询，不能评价';
-            default:
-                return '未知';
-        }
+        /** @var int|null $status */
+        $status = $this->status;
+        if (is_null($status)) return null;
+        $statusCn = [
+            0 => '失败',
+            1 => '成功',
+            2 => '已评价',
+            3 => '无咨询，不能评价'
+        ];
+        return $statusCn[$status] ?? '未知';
     }
 }

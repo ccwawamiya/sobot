@@ -29,12 +29,9 @@ class Item extends Response
      */
     public function getStatusCn()
     {
-        $status = intval($this->status);
-        switch ($status) {
-            case 1:
-                return '成功';
-            default:
-                return '失败';
-        }
+        /** @var int|null $status */
+        $status = $this->status;
+        if (is_null($status)) return null;
+        return $status == 1 ? '成功' : '失败';
     }
 }

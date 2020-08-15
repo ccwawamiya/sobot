@@ -35,20 +35,16 @@ class Item extends Response
      */
     public function getStatusCn()
     {
-        $status = intval($this->status);
-        switch ($status) {
-            case -1:
-                return '重复请求，拒绝处理';
-            case 0:
-                return '排队';
-            case 1:
-                return '成功';
-            case 2:
-                return '无客服';
-            case 3:
-                return '在黑名单';
-            default:
-                return '未知';
-        }
+        /** @var int|null $status */
+        $status = $this->status;
+        if (is_null($status)) return null;
+        $statusCn = [
+            -1 => '重复请求，拒绝处理',
+            0 => '排队',
+            1 => '成功',
+            2 => '无客服',
+            3 => '在黑名单'
+        ];
+        return $statusCn[$status] ?? '未知';
     }
 }

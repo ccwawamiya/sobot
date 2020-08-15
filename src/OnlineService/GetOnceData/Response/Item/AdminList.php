@@ -43,15 +43,14 @@ class AdminList extends Response
      */
     public function getStatusCn()
     {
-        $status = intval($this->status);
-        switch ($status) {
-            case 1:
-                return '在线';
-            case 2:
-                return '忙碌';
-            default:
-                return '未知';
-        }
+        /** @var int|null $status */
+        $status = $this->status;
+        if (is_null($status)) return null;
+        $statusCn = [
+            1 => '在线',
+            2 => '忙碌'
+        ];
+        return $statusCn[$status] ?? '未知';
     }
 
     /**
@@ -61,20 +60,15 @@ class AdminList extends Response
      */
     public function getStatusCodeCn()
     {
-        $statusCode = intval($this->status_code);
-        switch ($statusCode) {
-            case 3:
-                return '小休';
-            case 4:
-                return '培训';
-            case 5:
-                return '会议';
-            case 6:
-                return '用餐';
-            case 7:
-                return '活动';
-            default:
-                return '未知';
-        }
+        /** @var int|null $statusCode */
+        $statusCode = $this->status_code;
+        $statusCodeCn = [
+            3 => '小休',
+            4 => '培训',
+            5 => '会议',
+            6 => '用餐',
+            7 => '活动',
+        ];
+        return $statusCodeCn[$statusCode] ?? '未知';
     }
 }

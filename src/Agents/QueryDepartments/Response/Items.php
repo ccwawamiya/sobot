@@ -37,25 +37,18 @@ class Items extends Response
      */
     public function getDepartTypeCn()
     {
-        $departType = explode(',', $this->depart_type);
+        /** @var string|null $departType */
+        $departType = $this->depart_type;
+        if(is_null($departType)) return null;
+        $departType = explode(',', $departType);
+        $departTypeCn = [
+            1 => '在线',
+            2 => '呼叫',
+            3 => '电销',
+            4 => '工单'
+        ];
         foreach ($departType as &$type) {
-            switch (intval($type)) {
-                case 1:
-                    $type = '在线';
-                    break;
-                case 2:
-                    $type = '呼叫';
-                    break;
-                case 3:
-                    $type = '电销';
-                    break;
-                case 4:
-                    $type = '工单';
-                    break;
-                default:
-                    $type = '未知';
-                    break;
-            }
+            $type = $departTypeCn[$type] ?? '未知';
         }
         return implode(',', $departType);
     }

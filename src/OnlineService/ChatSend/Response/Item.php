@@ -29,14 +29,13 @@ class Item extends Response
      */
     public function getStatusCn()
     {
-        $status = intval($this->status);
-        switch ($status) {
-            case 1:
-                return '成功';
-            case 2:
-                return '用户没有跟客服建立连接';
-            default:
-                return '未知';
-        }
+        /** @var int|null $status */
+        $status = $this->status;
+        if (is_null($status)) return null;
+        $statusCn = [
+            1 => '成功',
+            2 => '用户没有跟客服建立连接'
+        ];
+        return $statusCn[$status] ?? '未知';
     }
 }
