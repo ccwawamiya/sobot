@@ -42,7 +42,7 @@ abstract class Container
                 throw new ParamException(sprintf('Cache Not Implements %s', Cache::class));
             }
         }
-        $this->cache = $cache;
+        $this->cache = null;
     }
 
     /**
