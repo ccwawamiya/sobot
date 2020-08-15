@@ -61,7 +61,7 @@ if (!function_exists('array_get')) {
      */
     function array_get($array, ?string $key, $default = null, string $glue = '.')
     {
-        if (is_array($array)) {
+        if (!is_array($array)) {
             return $default;
         }
         if (is_null($key)) {
