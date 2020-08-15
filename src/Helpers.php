@@ -80,7 +80,7 @@ if (!function_exists('chain_array_get')) {
      *
      * @param array $array
      * @param string $key
-     * @param null $default
+     * @param mixed $default
      * @param string $glue
      * @return mixed|null
      */

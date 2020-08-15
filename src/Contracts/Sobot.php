@@ -159,10 +159,10 @@ abstract class Sobot
     /**
      * 确认是否是Token失效
      *
-     * @param string $retCode
+     * @param string|null $retCode
      * @return bool
      */
-    protected function tokenIsInvalid(string $retCode)
+    protected function tokenIsInvalid(?string $retCode)
     {
         return !$this->updatingToken && $retCode == Code::TOKEN_IS_INVALID && !($this instanceof Token);
     }
