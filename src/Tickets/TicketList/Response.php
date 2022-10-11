@@ -1,9 +1,9 @@
 <?php
 
 
-namespace MuCTS\Sobot\Tickets\TicketList;
+namespace Ccwawamiya\Sobot\Tickets\TicketList;
 
-use MuCTS\Sobot\Tickets\TicketList\Response\Items;
+use Ccwawamiya\Sobot\Tickets\TicketList\Response\Items;
 
 /**
  * Class Response
@@ -12,9 +12,9 @@ use MuCTS\Sobot\Tickets\TicketList\Response\Items;
  * @property-read int $page_count
  * @property-read int $total_count
  * @property-read Items[] $items
- * @package MuCTS\Sobot\Tickets\TicketList
+ * @package Ccwawamiya\Sobot\Tickets\TicketList
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

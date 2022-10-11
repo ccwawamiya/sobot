@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics\MessageStats\Response;
+namespace Ccwawamiya\Sobot\OnlineStatistics\MessageStats\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
@@ -36,7 +36,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read int $service_word 客服字数
  * @property-read float $avg_service_word 平均每会话客服字数
  * @property-read int $service_offline_num 客服离线消息数
- * @package MuCTS\Sobot\OnlineStatistics\MessageStats\Response
+ * @package Ccwawamiya\Sobot\OnlineStatistics\MessageStats\Response
  */
 class Item extends Response
 {

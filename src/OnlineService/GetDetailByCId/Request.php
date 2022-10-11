@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\GetDetailByCId;
+namespace Ccwawamiya\Sobot\OnlineService\GetDetailByCId;
 
 
 /**
@@ -20,9 +20,9 @@ namespace MuCTS\Sobot\OnlineService\GetDetailByCId;
  * @method Request whereFrom(?int $value) 来源：0-开放平台，1-pc/h5/sdk
  * @method Request whereVisitorid(?string $value) 智齿平台用户id-所有来源用户都可使用
  * @method Request whereNameFlag(?int $value) 客服名字类型：0.昵称（默认） 1.真实姓名
- * @package MuCTS\Sobot\OnlineService\QueryCIds
+ * @package Ccwawamiya\Sobot\OnlineService\QueryCIds
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\QueryUserExtendFields\Response\Item;
+namespace Ccwawamiya\Sobot\Users\QueryUserExtendFields\Response\Item;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class ExtendFields
@@ -29,7 +29,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read int $operate_type 自定义字段类型	1、客户自定义字段 11、客户固定字段
  * @property-read string $sort_no 排序标识
  * @property-read string $remark 字段描述	
- * @package MuCTS\Sobot\Users\QueryUserExtendFields\Response\Item
+ * @package Ccwawamiya\Sobot\Users\QueryUserExtendFields\Response\Item
  */
 class ExtendFields extends Response
 {

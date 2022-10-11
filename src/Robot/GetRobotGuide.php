@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot;
+namespace Ccwawamiya\Sobot\Robot;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class GetRobotGuide
@@ -24,7 +24,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * 接口作用：可以调用在智齿后台配置的指定机器人的常见问题列表和引导语。
  *
  * @method GetRobotGuide whereRobotFlag(int $value) 机器人编号，可以在「设置-机器人-机器人信息」中查看
- * @package MuCTS\Sobot\Robot
+ * @package Ccwawamiya\Sobot\Robot
  */
 class GetRobotGuide extends Sobot
 {

@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics\QualityResult\Response;
+namespace Ccwawamiya\Sobot\OnlineStatistics\QualityResult\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Items
@@ -32,7 +32,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $staff_name 客服姓名
  * @property-read string $email 客服邮箱
  * @property-read string $cid 会话id
- * @package MuCTS\Sobot\OnlineStatistics\QualityResult\Response
+ * @package Ccwawamiya\Sobot\OnlineStatistics\QualityResult\Response
  */
 class Items extends Response
 {

@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService;
+namespace Ccwawamiya\Sobot\OnlineService;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /***
  * Class AdminIsWork
@@ -25,7 +25,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  *
  * @method AdminIsWork whereGroupid(?string $value) 技能组id
  *
- * @package MuCTS\Sobot\OnlineService
+ * @package Ccwawamiya\Sobot\OnlineService
  */
 class AdminIsWork extends Sobot
 {

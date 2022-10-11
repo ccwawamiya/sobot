@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\DataDict\Response\Item;
+namespace Ccwawamiya\Sobot\Tickets\DataDict\Response\Item;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class TicketTypeList
@@ -26,7 +26,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $type_level 分类级别,最多五级（第一级，2：第二级，3：第三级，4：第四级，5：第五级）
  * @property-read string $node_flag 是否叶子节点,0 是 1 不是
  * @property-read TicketTypeList[]|null $sub_type_list 子分类信息,内容与ticket_type_list一致
- * @package MuCTS\Sobot\Tickets\DataDict\Response\Item
+ * @package Ccwawamiya\Sobot\Tickets\DataDict\Response\Item
  */
 class TicketTypeList extends Response
 {

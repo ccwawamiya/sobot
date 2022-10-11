@@ -10,11 +10,11 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\GetUserByEmail\Response;
+namespace Ccwawamiya\Sobot\Users\GetUserByEmail\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
-use MuCTS\Sobot\Users\GetUserByEmail\Response\Item\ExtendFieldValues;
+use Ccwawamiya\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Users\GetUserByEmail\Response\Item\ExtendFieldValues;
 
 /**
  * Class Item
@@ -36,7 +36,7 @@ use MuCTS\Sobot\Users\GetUserByEmail\Response\Item\ExtendFieldValues;
  * @property-read ExtendFieldValues[]|null $extend_field_values 扩展字段值
  * @property-read string $create_datetime 创建时间，2018-07-10 00:00:00
  * @property-read string|null $user_label 客户标签，选项客户自定义
- * @package MuCTS\Sobot\Users\GetUserByEmail\Response
+ * @package Ccwawamiya\Sobot\Users\GetUserByEmail\Response
  */
 class Item extends Response
 {

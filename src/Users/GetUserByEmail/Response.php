@@ -10,18 +10,18 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\GetUserByEmail;
+namespace Ccwawamiya\Sobot\Users\GetUserByEmail;
 
-use MuCTS\Sobot\Users\GetUserByEmail\Response\Item;
+use Ccwawamiya\Sobot\Users\GetUserByEmail\Response\Item;
 
 /**
  * Class Response
  * @property-read string $ret_code 返回编码
  * @property-read string $ret_msg 返回信息
  * @property-read Item $item 返回对象
- * @package MuCTS\Sobot\Users\GetUserByEmail
+ * @package Ccwawamiya\Sobot\Users\GetUserByEmail
  */
-class Response extends \MuCTS\Sobot\Contracts\Request
+class Response extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

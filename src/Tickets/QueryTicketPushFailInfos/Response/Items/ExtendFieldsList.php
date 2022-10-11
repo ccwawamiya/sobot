@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\QueryTicketPushFailInfos\Response\Items;
+namespace Ccwawamiya\Sobot\Tickets\QueryTicketPushFailInfos\Response\Items;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class ExtendFieldsList
@@ -22,7 +22,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $field_type 自定义字段类型 1单行文本，2多行文本，3日期，4时间，5 数值，6下拉列表，7复选框，8单选框
  * @property-read string|null $field_text 选择型字段选项文本值
  * @property-read string $field_value 自定义字段值 
- * @package MuCTS\Sobot\Tickets\QueryTicketPushFailInfos\Response\Items
+ * @package Ccwawamiya\Sobot\Tickets\QueryTicketPushFailInfos\Response\Items
  */
 class ExtendFieldsList extends Response
 {

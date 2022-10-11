@@ -1,10 +1,10 @@
 <?php
 
 
-namespace MuCTS\Sobot\Tickets\GetTicketById\Response\Item;
+namespace Ccwawamiya\Sobot\Tickets\GetTicketById\Response\Item;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class DealList
@@ -18,7 +18,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $update_user_name 回复人名称
  * @property-read string $face_img 回复人头像
  * @property-read FileList[] file_list 回复附件
- * @package MuCTS\Sobot\Tickets\GetTicketById\Response\Item
+ * @package Ccwawamiya\Sobot\Tickets\GetTicketById\Response\Item
  */
 class DealList extends Response
 {

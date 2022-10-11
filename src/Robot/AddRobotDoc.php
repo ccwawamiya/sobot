@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot;
+namespace Ccwawamiya\Sobot\Robot;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class AddRobotDoc
@@ -43,7 +43,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method  AddRobotDoc effectTime(string $value) 生效时间，格式：yyyy-MM-dd HH:mm:ss
  * @method  AddRobotDoc invalidTime(string $value) 失效时间，格式：yyyy-MM-dd HH:mm:ss
  *
- * @package MuCTS\Sobot\Robot
+ * @package Ccwawamiya\Sobot\Robot
  */
 class AddRobotDoc extends Sobot
 {

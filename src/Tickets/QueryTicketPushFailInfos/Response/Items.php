@@ -10,11 +10,11 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\QueryTicketPushFailInfos\Response;
+namespace Ccwawamiya\Sobot\Tickets\QueryTicketPushFailInfos\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
-use MuCTS\Sobot\Tickets\QueryTicketPushFailInfos\Response\Items\ExtendFieldsList;
+use Ccwawamiya\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Tickets\QueryTicketPushFailInfos\Response\Items\ExtendFieldsList;
 
 /**
  * Class Items
@@ -51,7 +51,7 @@ use MuCTS\Sobot\Tickets\QueryTicketPushFailInfos\Response\Items\ExtendFieldsList
  * @property-read string|null $reminder_time 催单时间 具体的时间点，例如2020-04-20 12:35:30
  * @property-read string|null $partnerid 关联客户对接id
  * @property-read ExtendFieldsList[]|null $extend_fields_list 工单自定义字段
- * @package MuCTS\Sobot\Tickets\QueryTicketPushFailInfos\Response
+ * @package Ccwawamiya\Sobot\Tickets\QueryTicketPushFailInfos\Response
  */
 class Items extends Response
 {

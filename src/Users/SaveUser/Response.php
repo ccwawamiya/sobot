@@ -10,18 +10,18 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\SaveUser;
+namespace Ccwawamiya\Sobot\Users\SaveUser;
 
-use MuCTS\Sobot\Users\SaveUser\Response\Item;
+use Ccwawamiya\Sobot\Users\SaveUser\Response\Item;
 
 /**
  * Class Response
  * @property-read string $ret_code 返回编码
  * @property-read string $ret_msg 返回信息
  * @property-read Item $item
- * @package MuCTS\Sobot\Users\SaveUser
+ * @package Ccwawamiya\Sobot\Users\SaveUser
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

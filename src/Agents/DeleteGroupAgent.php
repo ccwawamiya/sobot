@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents;
+namespace Ccwawamiya\Sobot\Agents;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class DeleteAgent
@@ -26,7 +26,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @property-write string $agentid 坐席id
  * @method DeleteGroupAgent agentid(string $value) 坐席id
  *
- * @package MuCTS\Sobot\Agents
+ * @package Ccwawamiya\Sobot\Agents
  */
 class DeleteGroupAgent extends Sobot
 {

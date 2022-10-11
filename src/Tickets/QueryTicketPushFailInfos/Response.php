@@ -10,9 +10,9 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\QueryTicketPushFailInfos;
+namespace Ccwawamiya\Sobot\Tickets\QueryTicketPushFailInfos;
 
-use MuCTS\Sobot\Tickets\QueryTicketPushFailInfos\Response\Items;
+use Ccwawamiya\Sobot\Tickets\QueryTicketPushFailInfos\Response\Items;
 
 /**
  * Class Response
@@ -23,9 +23,9 @@ use MuCTS\Sobot\Tickets\QueryTicketPushFailInfos\Response\Items;
  * @property-read int $page_count 总页数
  * @property-read int $total_count 总条数
  * @property-read Items[] $items 返回集合
- * @package MuCTS\Sobot\Tickets\QueryTicketPushFailInfos
+ * @package Ccwawamiya\Sobot\Tickets\QueryTicketPushFailInfos
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

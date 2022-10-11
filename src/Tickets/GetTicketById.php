@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets;
+namespace Ccwawamiya\Sobot\Tickets;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class GetTicketById
@@ -23,7 +23,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * 返回该条工单的详细信息（包括工单回复、操作历史）。
  *
  * @method GetTicketById whereTicketid(string $ticketid) 工单ID
- * @package MuCTS\Sobot\Tickets
+ * @package Ccwawamiya\Sobot\Tickets
  */
 class GetTicketById extends Sobot
 {

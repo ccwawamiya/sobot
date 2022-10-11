@@ -23,7 +23,7 @@ composer require mucts/sobot
 
 ```php
 <?php
-use MuCTS\Sobot\Sobot;
+use Ccwawamiya\Sobot\Sobot;
 // 获取访问Token
 $token = (new Sobot(['app_id'=>'','app_key'=>'']))->token()->getToken();
 ```
@@ -31,8 +31,8 @@ $token = (new Sobot(['app_id'=>'','app_key'=>'']))->token()->getToken();
 #### 注意：
 1. Token缓存需要自行实现
 ```php
-use MuCTS\Sobot\Sobot;
-use MuCTS\Sobot\Contracts\Cache as CacheInterface;
+use Ccwawamiya\Sobot\Sobot;
+use Ccwawamiya\Sobot\Contracts\Cache as CacheInterface;
 
 class Cache implements CacheInterface{
     public function set(string $key, $value, $tts): bool
@@ -70,8 +70,8 @@ $token = (new Sobot(['app_id'=>'','app_key'=>''], new Cache()))->token()->getTok
 14. 单点登录接口
 ```php
 <?php
-use MuCTS\Sobot\Sobot;
-/** @var \MuCTS\Sobot\OnlineService\QueryAgent\Response $res */
+use Ccwawamiya\Sobot\Sobot;
+/** @var \Ccwawamiya\Sobot\OnlineService\QueryAgent\Response $res */
 $res = (new Sobot(['app_id'=>'','app_key'=>'']))
 ->onlineService()
 ->queryAgent()

@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\SaveOptionDataValue;
+namespace Ccwawamiya\Sobot\Tickets\SaveOptionDataValue;
 
 
 /**
@@ -25,9 +25,9 @@ namespace MuCTS\Sobot\Tickets\SaveOptionDataValue;
  * @method Request fieldDataValue(array $fieldDataValue) 工单自定义字段选项信息, 格式:[["field_value" => "字段选项值", "field_text" => "字段文本值"]]
  * @method Request agentid(string $agentid) 操作坐席ID
  * @method Request agentName(string $agentName) 操作坐席名称
- * @package MuCTS\Sobot\Tickets\SaveOptionDataValue
+ * @package Ccwawamiya\Sobot\Tickets\SaveOptionDataValue
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
     /**
      * 追加工单自定义字段选项信息

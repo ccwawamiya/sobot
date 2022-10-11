@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot;
+namespace Ccwawamiya\Sobot\Robot;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class RobotChat
@@ -41,7 +41,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  *
  * @link https://www.sobot.com/developerdocs/service/knowledge_base.html#_2-3%E3%80%81%E7%94%A8%E6%88%B7%E5%92%A8%E8%AF%A2%E6%9C%BA%E5%99%A8%E4%BA%BA
  *
- * @package MuCTS\Sobot\Robot
+ * @package Ccwawamiya\Sobot\Robot
  */
 class RobotChat extends Sobot
 {

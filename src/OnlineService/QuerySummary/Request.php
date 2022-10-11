@@ -10,15 +10,15 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\QuerySummary;
+namespace Ccwawamiya\Sobot\OnlineService\QuerySummary;
 
 
 /**
  * Class Request
  * @method Request whereCid(string $value) 会话id
- * @package MuCTS\Sobot\OnlineService\QuerySummary
+ * @package Ccwawamiya\Sobot\OnlineService\QuerySummary
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

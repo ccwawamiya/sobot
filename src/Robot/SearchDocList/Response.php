@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\SearchDocList;
+namespace Ccwawamiya\Sobot\Robot\SearchDocList;
 
 
-use MuCTS\Sobot\Robot\SearchDocList\Response\Items;
+use Ccwawamiya\Sobot\Robot\SearchDocList\Response\Items;
 
 /**
  * Class Request
@@ -24,9 +24,9 @@ use MuCTS\Sobot\Robot\SearchDocList\Response\Items;
  * @property-read string $page_no    String    当前页码
  * @property-read string $page_size    String    每页条数
  * @property-read string $total_count    String    总条数
- * @package MuCTS\Sobot\Robot\SearchDocList
+ * @package Ccwawamiya\Sobot\Robot\SearchDocList
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

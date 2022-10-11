@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\ChatSend;
+namespace Ccwawamiya\Sobot\OnlineService\ChatSend;
 
 
 /**
@@ -24,9 +24,9 @@ namespace MuCTS\Sobot\OnlineService\ChatSend;
  * @method Request content(string $content)  用户问题
  * @method Request msgType(string $msgType)  消息类型 （text,image,voice，默认为text纯文本，如果为image和voice的时候，content传递图片地址或者音频地址,其中音频支持mp3,wav两种格式）
  *
- * @package MuCTS\Sobot\OnlineService\ChatSend
+ * @package Ccwawamiya\Sobot\OnlineService\ChatSend
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

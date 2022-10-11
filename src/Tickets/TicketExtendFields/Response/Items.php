@@ -10,11 +10,11 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\TicketExtendFields\Response;
+namespace Ccwawamiya\Sobot\Tickets\TicketExtendFields\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
-use MuCTS\Sobot\Tickets\TicketExtendFields\Response\Items\FieldDataList;
+use Ccwawamiya\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Tickets\TicketExtendFields\Response\Items\FieldDataList;
 
 /**
  * Class Items
@@ -24,7 +24,7 @@ use MuCTS\Sobot\Tickets\TicketExtendFields\Response\Items\FieldDataList;
  * @property-read int $fill_flag	自定义字段是否必填:0 否 1 是
  * @property-read FieldDataList[]|null $field_data_list 选择型字段的选项信息
  *
- * @package MuCTS\Sobot\Tickets\TicketExtendFields\Response
+ * @package Ccwawamiya\Sobot\Tickets\TicketExtendFields\Response
  */
 class Items extends Response
 {

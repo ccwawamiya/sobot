@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics;
+namespace Ccwawamiya\Sobot\OnlineStatistics;
 
 
-use MuCTS\Sobot\Contracts\Container;
+use Ccwawamiya\Sobot\Contracts\Container;
 
 /**
  * Class Client
@@ -26,7 +26,7 @@ use MuCTS\Sobot\Contracts\Container;
  * @method ReceiveOrderData receiveOrderData() 订单统计推送接口
  * @method RobotSatisfaction robotSatisfaction() 机器人满意度统计
  * @method RobotSession robotSession() 机器人会话统计
- * @package MuCTS\Sobot\OnlineStatistics
+ * @package Ccwawamiya\Sobot\OnlineStatistics
  */
 class Client extends Container
 {

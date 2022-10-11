@@ -10,11 +10,11 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\GetOnceData\Response;
+namespace Ccwawamiya\Sobot\OnlineService\GetOnceData\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
-use MuCTS\Sobot\OnlineService\GetOnceData\Response\Item\AdminList;
+use Ccwawamiya\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\OnlineService\GetOnceData\Response\Item\AdminList;
 
 /**
  * Class Item
@@ -23,7 +23,7 @@ use MuCTS\Sobot\OnlineService\GetOnceData\Response\Item\AdminList;
  * @property-read int online_user_size 在线用户数量
  * @property-read int wait_user_size 排队用户数量
  * @property-read int robot_user_size 与机器人会话数量
- * @package MuCTS\Sobot\OnlineService\GetOnceData\Response
+ * @package Ccwawamiya\Sobot\OnlineService\GetOnceData\Response
  */
 class Item extends Response
 {

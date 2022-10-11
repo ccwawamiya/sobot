@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot;
+namespace Ccwawamiya\Sobot\Robot;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class SearchDocList
@@ -42,7 +42,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method SearchDocList whereEffectEndDate(?string $value) 生效结束时间
  * @method SearchDocList whereInvalidStartDate(?string $value) 失效开始时间
  * @method SearchDocList whereInvalidEndDate(?string $value) 失效结束时间
- * @package MuCTS\Sobot\Robot
+ * @package Ccwawamiya\Sobot\Robot
  */
 class SearchDocList extends Sobot
 {

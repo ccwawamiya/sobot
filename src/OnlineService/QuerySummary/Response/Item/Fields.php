@@ -10,17 +10,17 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\QuerySummary\Response\Item;
+namespace Ccwawamiya\Sobot\OnlineService\QuerySummary\Response\Item;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Fields
  * @property-read string $fieldid 字段id
  * @property-read string $field_name 字段名称
  * @property-read string $field_value 字段值
- * @package MuCTS\Sobot\OnlineService\QuerySummary\Response\Item
+ * @package Ccwawamiya\Sobot\OnlineService\QuerySummary\Response\Item
  */
 class Fields extends Response
 {

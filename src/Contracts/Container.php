@@ -10,11 +10,11 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Contracts;
+namespace Ccwawamiya\Sobot\Contracts;
 
 
-use MuCTS\Sobot\Exceptions\NotFoundException;
-use MuCTS\Sobot\Exceptions\ParamException;
+use Ccwawamiya\Sobot\Exceptions\NotFoundException;
+use Ccwawamiya\Sobot\Exceptions\ParamException;
 
 abstract class Container
 {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MuCTS\Sobot\Contracts;
+namespace Ccwawamiya\Sobot\Contracts;
 
 
 abstract class Request

@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\SaveAgent\Response;
+namespace Ccwawamiya\Sobot\Agents\SaveAgent\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
@@ -21,7 +21,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $agent_nick 坐席昵称
  * @property-read string $agent_name 坐席真实名称
  * @property-read string $agentid 坐席id
- * @package MuCTS\Sobot\Agents\SaveAgent\Response
+ * @package Ccwawamiya\Sobot\Agents\SaveAgent\Response
  */
 class Item extends Response
 {

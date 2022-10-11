@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users;
+namespace Ccwawamiya\Sobot\Users;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class QueryEnterprises
@@ -25,7 +25,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method QueryEnterprises pageNo(int $value) 起始页码 ,1
  * @method QueryEnterprises pageSize(int $value) 每页条数 ,默认每页15条
  *
- * @package MuCTS\Sobot\Users
+ * @package Ccwawamiya\Sobot\Users
  */
 class QueryEnterprises extends Sobot
 {

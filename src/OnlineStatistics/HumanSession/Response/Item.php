@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics\HumanSession\Response;
+namespace Ccwawamiya\Sobot\OnlineStatistics\HumanSession\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
@@ -39,7 +39,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $valid_reception_rate 有效接待率
  * @property-read string $transfer_in 转入会话
  * @property-read string $transfer_out 转出会话
- * @package MuCTS\Sobot\OnlineStatistics\HumanSession\Response
+ * @package Ccwawamiya\Sobot\OnlineStatistics\HumanSession\Response
  */
 class Item extends Response
 {

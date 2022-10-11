@@ -10,13 +10,13 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\GetOnceData;
+namespace Ccwawamiya\Sobot\OnlineService\GetOnceData;
 
 /**
  * Class Request
- * @package MuCTS\Sobot\OnlineService\GetOnceData
+ * @package Ccwawamiya\Sobot\OnlineService\GetOnceData
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

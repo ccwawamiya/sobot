@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets;
+namespace Ccwawamiya\Sobot\Tickets;
 
 
-use MuCTS\Sobot\Contracts\Container;
+use Ccwawamiya\Sobot\Contracts\Container;
 
 /**
  * Class Client
@@ -32,7 +32,7 @@ use MuCTS\Sobot\Contracts\Container;
  * @method TicketList ticketList() 查询工单列表
  * @method UploadFile uploadFile() 附件上传（坐席）
  * @method UserUploadFile userUploadFile() 附件上传（客户）
- * @package MuCTS\Sobot\Tickets
+ * @package Ccwawamiya\Sobot\Tickets
  */
 class Client extends Container
 {

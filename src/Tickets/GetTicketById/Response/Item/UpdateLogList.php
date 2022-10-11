@@ -1,10 +1,10 @@
 <?php
 
 
-namespace MuCTS\Sobot\Tickets\GetTicketById\Response\Item;
+namespace Ccwawamiya\Sobot\Tickets\GetTicketById\Response\Item;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class UpdateLogList
@@ -17,7 +17,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $start_type_cn 操作人类型
  * @property-read string $update_agent_name 操作人名称
  * @property-read string $face_img 操作人头像
- * @package MuCTS\Sobot\Tickets\GetTicketById\Response\Item
+ * @package Ccwawamiya\Sobot\Tickets\GetTicketById\Response\Item
  */
 class UpdateLogList extends Response
 {

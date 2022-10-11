@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics\ExportData;
+namespace Ccwawamiya\Sobot\OnlineStatistics\ExportData;
 
 
 /**
  * Class Request
  * @method Request whereTaskType(int $value) 任务类型, 1:visit, 2:conversation, 3:evaluation, 4:msg, 5:user, 6:ticket
  * @method Request whereDate(string $value) 日期, 日期（yyyy-MM-dd）
- * @package MuCTS\Sobot\OnlineStatistics\ExportData
+ * @package Ccwawamiya\Sobot\OnlineStatistics\ExportData
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

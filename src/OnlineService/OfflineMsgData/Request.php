@@ -10,14 +10,14 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\OfflineMsgData;
+namespace Ccwawamiya\Sobot\OnlineService\OfflineMsgData;
 
 /**
  * Class Request
  * @method Request whereVisitorid(string $value) 访客id
- * @package MuCTS\Sobot\OnlineService\OfflineMsgData
+ * @package Ccwawamiya\Sobot\OnlineService\OfflineMsgData
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

@@ -10,15 +10,15 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\UpdateGroups;
+namespace Ccwawamiya\Sobot\Agents\UpdateGroups;
 
 /**
  * Class Response
  * @property-read string $ret_code 返回编码
  * @property-read string $ret_msg 返回信息
- * @package MuCTS\Sobot\Agents\UpdateGroups
+ * @package Ccwawamiya\Sobot\Agents\UpdateGroups
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

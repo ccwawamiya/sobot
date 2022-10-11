@@ -10,19 +10,19 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\Comment;
+namespace Ccwawamiya\Sobot\OnlineService\Comment;
 
 
-use MuCTS\Sobot\OnlineService\Comment\Response\Item;
+use Ccwawamiya\Sobot\OnlineService\Comment\Response\Item;
 
 /**
  * Class Response
  * @property-read string $ret_code
  * @property-read string $ret_msg
  * @property-read Item $item
- * @package MuCTS\Sobot\OnlineService\Comment
+ * @package Ccwawamiya\Sobot\OnlineService\Comment
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

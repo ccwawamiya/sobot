@@ -10,13 +10,13 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\DataDict;
+namespace Ccwawamiya\Sobot\Tickets\DataDict;
 
 /**
  * Class Request
- * @package MuCTS\Sobot\Tickets\DataDict
+ * @package Ccwawamiya\Sobot\Tickets\DataDict
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\ChatSend\Response;
+namespace Ccwawamiya\Sobot\OnlineService\ChatSend\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
  * @property-read int $status 状态：1.成功 2.用户没有跟客服建立连接
  * @property-read string $status_cn
- * @package MuCTS\Sobot\OnlineService\ChatSend\Response
+ * @package Ccwawamiya\Sobot\OnlineService\ChatSend\Response
  */
 class Item extends Response
 {

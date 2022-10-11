@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\SaveUserTicket;
+namespace Ccwawamiya\Sobot\Tickets\SaveUserTicket;
 
 /**
  * Class Request
@@ -46,9 +46,9 @@ namespace MuCTS\Sobot\Tickets\SaveUserTicket;
  * @method Request ticketFrom(string $ticketFrom) 工单来源, 1 PC客户留言，2 H5客户留言，3 微信公众号客户留言，4 APP客户留言，12 邮件留言，13语音留言，16微信小程序客户留言，17企业微信客户留言
  * @method Request fileStr(string $fileStr) 附件路径, 多个附件，附件之间采用英文分号";"隔开
  * @method Request extendFields(array $extendFields) 工单自定义字段信息，格式：[["fieldid" => "自定义字段ID", "field_value" => "自定义字段值"]]
- * @package MuCTS\Sobot\Tickets\SaveUserTicket
+ * @package Ccwawamiya\Sobot\Tickets\SaveUserTicket
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
     /**
      * 追加工单自定义字段信息

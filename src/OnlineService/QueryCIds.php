@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService;
+namespace Ccwawamiya\Sobot\OnlineService;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class QueryCIds
@@ -26,7 +26,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method QueryCIds whereVisitorid(?string $value) 访客id，visitorid与partnerid选择其一
  * @method QueryCIds wherePartnerid(?string $value) 企业自己的用户id，可自行传值，与from参数配套使用
  * @method QueryCIds whereFrom(?int $value) 来源：0-开放平台，1-pc/h5/sdk
- * @package MuCTS\Sobot\OnlineService
+ * @package Ccwawamiya\Sobot\OnlineService
  */
 class QueryCIds extends Sobot
 {

@@ -10,15 +10,15 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\DeleteRobotDoc;
+namespace Ccwawamiya\Sobot\Robot\DeleteRobotDoc;
 
 /**
  * Class Request
  * @method Request whereDocid(string $value) 词条id
  * @method Request whereRobotFlag(int $value) 知识库所属机器人：0公共知识库，1机器人一
- * @package MuCTS\Sobot\Robot\DeleteRobotDoc
+ * @package Ccwawamiya\Sobot\Robot\DeleteRobotDoc
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

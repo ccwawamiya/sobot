@@ -10,9 +10,9 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\QueryDepartments;
+namespace Ccwawamiya\Sobot\Agents\QueryDepartments;
 
-use MuCTS\Sobot\Agents\QueryDepartments\Response\Items;
+use Ccwawamiya\Sobot\Agents\QueryDepartments\Response\Items;
 
 /**
  * Class Response
@@ -20,9 +20,9 @@ use MuCTS\Sobot\Agents\QueryDepartments\Response\Items;
  * @property-write string $ret_msg 返回信息
  * @property-read Items[] items 对象列表
  *
- * @package MuCTS\Sobot\Agents\QueryDepartments
+ * @package Ccwawamiya\Sobot\Agents\QueryDepartments
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

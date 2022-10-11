@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\ChatConnect\Response;
+namespace Ccwawamiya\Sobot\OnlineService\ChatConnect\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
@@ -25,7 +25,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $visitorid  用户id
  * @property-read string $cid  会话id
  * @property-read int $count  排队位置
- * @package MuCTS\Sobot\OnlineService\ChatConnect\Response
+ * @package Ccwawamiya\Sobot\OnlineService\ChatConnect\Response
  */
 class Item extends Response
 {

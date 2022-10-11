@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MuCTS\Sobot\Exceptions;
+namespace Ccwawamiya\Sobot\Exceptions;
 
 
 class ConfigException extends Exception

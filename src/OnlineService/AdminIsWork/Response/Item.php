@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\AdminIsWork\Response;
+namespace Ccwawamiya\Sobot\OnlineService\AdminIsWork\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
  * @property-read string $is_work 上下班状态：true-上班；false-下班
  * @property-read string $is_work_cn 上下班状态
- * @package MuCTS\Sobot\OnlineService\AdminIsWork\Response
+ * @package Ccwawamiya\Sobot\OnlineService\AdminIsWork\Response
  */
 class Item extends Response
 {

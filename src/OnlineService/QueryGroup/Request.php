@@ -10,13 +10,13 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\QueryGroup;
+namespace Ccwawamiya\Sobot\OnlineService\QueryGroup;
 
 /**
  * Class Request
- * @package MuCTS\Sobot\OnlineService\QueryGroup
+ * @package Ccwawamiya\Sobot\OnlineService\QueryGroup
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

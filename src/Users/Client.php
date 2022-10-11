@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users;
+namespace Ccwawamiya\Sobot\Users;
 
 
-use MuCTS\Sobot\Contracts\Container;
+use Ccwawamiya\Sobot\Contracts\Container;
 
 /**
  * Class Client
@@ -29,7 +29,7 @@ use MuCTS\Sobot\Contracts\Container;
  * @method SaveUser saveUser() 创建客户信息
  * @method UpdateUser updateUser() 编辑客户信息
  *
- * @package MuCTS\Sobot\Users
+ * @package Ccwawamiya\Sobot\Users
  */
 class Client extends Container
 {

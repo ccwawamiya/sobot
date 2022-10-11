@@ -10,18 +10,18 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics\HumanSatisfaction;
+namespace Ccwawamiya\Sobot\OnlineStatistics\HumanSatisfaction;
 
-use MuCTS\Sobot\OnlineStatistics\HumanSatisfaction\Response\Item;
+use Ccwawamiya\Sobot\OnlineStatistics\HumanSatisfaction\Response\Item;
 
 /**
  * Class Response
  * @property-read string $ret_code 返回编码
  * @property-read string $ret_msg 返回信息
  * @property-read Item $item 返回对象
- * @package MuCTS\Sobot\OnlineStatistics\HumanSatisfaction
+ * @package Ccwawamiya\Sobot\OnlineStatistics\HumanSatisfaction
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

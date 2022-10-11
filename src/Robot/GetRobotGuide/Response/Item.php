@@ -10,11 +10,11 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\GetRobotGuide\Response;
+namespace Ccwawamiya\Sobot\Robot\GetRobotGuide\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
-use MuCTS\Sobot\Robot\GetRobotGuide\Response\Item\LinkQuestionList;
+use Ccwawamiya\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Robot\GetRobotGuide\Response\Item\LinkQuestionList;
 
 /**
  * Class Item
@@ -24,7 +24,7 @@ use MuCTS\Sobot\Robot\GetRobotGuide\Response\Item\LinkQuestionList;
  * @property-read LinkQuestionList $link_question_list 引导语对象
  * @property-read string $companyid 公司id
  * @property-read string $guide_strip 引导语
- * @package MuCTS\Sobot\Robot\GetRobotGuide\Response
+ * @package Ccwawamiya\Sobot\Robot\GetRobotGuide\Response
  */
 class Item extends Response
 {

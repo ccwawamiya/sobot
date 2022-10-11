@@ -10,14 +10,14 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\DeleteAgent;
+namespace Ccwawamiya\Sobot\Agents\DeleteAgent;
 
 /**
  * Class Request
  * @method Request whereAgentid(string $value) 坐席ID
- * @package MuCTS\Sobot\Agents\DeleteAgent
+ * @package Ccwawamiya\Sobot\Agents\DeleteAgent
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

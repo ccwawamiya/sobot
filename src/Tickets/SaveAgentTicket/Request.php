@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\SaveAgentTicket;
+namespace Ccwawamiya\Sobot\Tickets\SaveAgentTicket;
 
 
 /**
@@ -62,9 +62,9 @@ namespace MuCTS\Sobot\Tickets\SaveAgentTicket;
  * @method Request fileStr(string $fileStr) 附件路径, 多个附件，附件之间采用英文分号";"隔开
  * @method Request copyAgent(array $copyAgent) 抄送坐席，格式：[["agent_name" => "坐席名称", "agent_mail" => "坐席邮箱"]]
  * @method Request extendFields(array $extendFields) 工单自定义字段信息，格式：[["fieldid" => "自定义字段ID", "field_value" => "自定义字段值"]]
- * @package MuCTS\Sobot\Tickets\Request
+ * @package Ccwawamiya\Sobot\Tickets\Request
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
     /**
      * 追加工单自定义字段信息

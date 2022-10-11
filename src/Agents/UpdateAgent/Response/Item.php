@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\UpdateAgent\Response;
+namespace Ccwawamiya\Sobot\Agents\UpdateAgent\Response;
 
 
-class Item extends \MuCTS\Sobot\Agents\SaveAgent\Response\Item
+class Item extends \Ccwawamiya\Sobot\Agents\SaveAgent\Response\Item
 {
 
 }

@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\QueryAgent\Response;
+namespace Ccwawamiya\Sobot\OnlineService\QueryAgent\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Items
@@ -27,7 +27,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $agent_status 客服状态
  * @property-read string $create_time 创建时间（yyyy-MM-dd）
  * @property-read string $department_name 部门名称	
- * @package MuCTS\Sobot\OnlineService\QueryAgent\Response
+ * @package Ccwawamiya\Sobot\OnlineService\QueryAgent\Response
  */
 class Items extends Response
 {

@@ -10,14 +10,14 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\GetUserByTel;
+namespace Ccwawamiya\Sobot\Users\GetUserByTel;
 
 /**
  * Class Request
  * @method Request whereUserTels(string $value) 手机号，此参数只允许单一值
- * @package MuCTS\Sobot\Users\GetUserByTel
+ * @package Ccwawamiya\Sobot\Users\GetUserByTel
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

@@ -1,15 +1,15 @@
 <?php
 
 
-namespace MuCTS\Sobot\Token;
+namespace Ccwawamiya\Sobot\Token;
 
-use MuCTS\Sobot\Contracts\Sobot;
-use MuCTS\Sobot\Token\Token\Response;
+use Ccwawamiya\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Token\Token\Response;
 
 /**
  * Class Token
- * @mixin \MuCTS\Sobot\Token\Token\Request
- * @package MuCTS\Sobot\Token
+ * @mixin \Ccwawamiya\Sobot\Token\Token\Request
+ * @package Ccwawamiya\Sobot\Token
  */
 class Token extends Sobot
 {
@@ -46,9 +46,9 @@ class Token extends Sobot
      * @param bool $updating
      * @return mixed|string
      * @throws \GuzzleHttp\Exception\GuzzleException
-     * @throws \MuCTS\Sobot\Exceptions\ResponseException
-     * @throws \MuCTS\Sobot\Exceptions\SobotException|
-     * @throws \MuCTS\Sobot\Exceptions\ConfigException
+     * @throws \Ccwawamiya\Sobot\Exceptions\ResponseException
+     * @throws \Ccwawamiya\Sobot\Exceptions\SobotException|
+     * @throws \Ccwawamiya\Sobot\Exceptions\ConfigException
      * @author herry.yao <yuandeng@aliyun.com>
      * @version 1.2.2
      * @date 2020-08-05

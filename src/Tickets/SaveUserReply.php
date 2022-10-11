@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets;
+namespace Ccwawamiya\Sobot\Tickets;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class SaveUserReply
@@ -30,7 +30,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method SaveUserReply ticketid($ticketid) 工单ID
  * @method SaveUserReply replyContent($replyContent) 工单回复内容
  * @method SaveUserReply fileStr($fileStr) 回复附件路径，多个附件，附件之间采用英文分号";"隔开
- * @package MuCTS\Sobot\Tickets
+ * @package Ccwawamiya\Sobot\Tickets
  */
 class SaveUserReply extends Sobot
 {

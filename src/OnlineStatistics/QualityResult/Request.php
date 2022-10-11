@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics\QualityResult;
+namespace Ccwawamiya\Sobot\OnlineStatistics\QualityResult;
 
 
 /**
@@ -19,9 +19,9 @@ namespace MuCTS\Sobot\OnlineStatistics\QualityResult;
  * @method Request whereEndDate(string $value) 结束日期（yyyy-MM-dd）
  * @method Request wherePage(int $value) 当前页码
  * @method Request whereSize(int $value) 每页条数（默认100，最大可传入10000）
- * @package MuCTS\Sobot\OnlineStatistics\QualityResult
+ * @package Ccwawamiya\Sobot\OnlineStatistics\QualityResult
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

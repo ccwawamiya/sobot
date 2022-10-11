@@ -10,17 +10,18 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot;
+namespace Ccwawamiya\Sobot;
 
 
-use MuCTS\Sobot\Agents\Client as Agents;
-use MuCTS\Sobot\Contracts\Container;
-use MuCTS\Sobot\OnlineService\Client as OnlineService;
-use MuCTS\Sobot\OnlineStatistics\Client as OnlineStatistics;
-use MuCTS\Sobot\Robot\Client as Robot;
-use MuCTS\Sobot\Tickets\Client as Tickets;
-use MuCTS\Sobot\Token\Token;
-use MuCTS\Sobot\Users\Client as Users;
+use Ccwawamiya\Sobot\Agents\Client as Agents;
+use Ccwawamiya\Sobot\Contracts\Container;
+use Ccwawamiya\Sobot\OnlineService\Client as OnlineService;
+use Ccwawamiya\Sobot\OnlineStatistics\Client as OnlineStatistics;
+use Ccwawamiya\Sobot\Robot\Client as Robot;
+use Ccwawamiya\Sobot\Tickets\Client as Tickets;
+use Ccwawamiya\Sobot\Token\Token;
+use Ccwawamiya\Sobot\Users\Client as Users;
+use Ccwawamiya\Sobot\Call\Client as Call;
 
 /**
  * Class Sobot
@@ -32,7 +33,8 @@ use MuCTS\Sobot\Users\Client as Users;
  * @method OnlineStatistics onlineStatistics() 在线统计
  * @method Robot robot() 机器人&知识库
  * @method Tickets tickets() 工单中心
- * @package MuCTS\Sobot
+ * @method Call call() 呼叫中心
+ * @package Ccwawamiya\Sobot
  */
 class Sobot extends Container
 {

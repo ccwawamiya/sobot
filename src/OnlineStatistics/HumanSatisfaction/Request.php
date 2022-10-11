@@ -10,15 +10,15 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics\HumanSatisfaction;
+namespace Ccwawamiya\Sobot\OnlineStatistics\HumanSatisfaction;
 
 /**
  * Class Request
  * @method Request whereStartDate(string $value) 开始日期（yyyy-MM-dd）
  * @method Request whereEndDate(string $value) 结束日期（yyyy-MM-dd）
- * @package MuCTS\Sobot\OnlineStatistics\HumanSatisfaction
+ * @package Ccwawamiya\Sobot\OnlineStatistics\HumanSatisfaction
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

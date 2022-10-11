@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\QueryUsers\Response;
+namespace Ccwawamiya\Sobot\Users\QueryUsers\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Items
@@ -34,7 +34,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $update_agentid 更新者坐席ID
  * @property-read string $create_datetime 创建时间 2018-07-10 00:00:00
  * @property-read string $user_label 客户标签 选项客户自定义
- * @package MuCTS\Sobot\Users\QueryUsers\Response
+ * @package Ccwawamiya\Sobot\Users\QueryUsers\Response
  */
 class Items extends Response
 {

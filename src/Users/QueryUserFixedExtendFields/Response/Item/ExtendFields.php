@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\QueryUserFixedExtendFields\Response\Item;
+namespace Ccwawamiya\Sobot\Users\QueryUserFixedExtendFields\Response\Item;
 
-use MuCTS\Sobot\Users\QueryUserFixedExtendFields\Response\Item\ExtendFields\FieldDataInfoList;
+use Ccwawamiya\Sobot\Users\QueryUserFixedExtendFields\Response\Item\ExtendFields\FieldDataInfoList;
 
 /**
  * Class ExtendFields
  * @property-read FieldDataInfoList[] $field_data_info_list 选项数据列表
- * @package MuCTS\Sobot\Users\QueryUserFixedExtendFields\Response\Item
+ * @package Ccwawamiya\Sobot\Users\QueryUserFixedExtendFields\Response\Item
  */
-class ExtendFields extends \MuCTS\Sobot\Users\QueryUserExtendFields\Response\Item\ExtendFields
+class ExtendFields extends \Ccwawamiya\Sobot\Users\QueryUserExtendFields\Response\Item\ExtendFields
 {
 
 }

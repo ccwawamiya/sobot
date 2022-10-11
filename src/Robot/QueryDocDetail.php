@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot;
+namespace Ccwawamiya\Sobot\Robot;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class QueryDocDetail
@@ -26,7 +26,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method QueryDocDetail whereDocid(string $value) 词条Id
  * @method QueryDocDetail whereRobotFlag(int $value) 知识库所属机器人：0公共知识库，1机器人一
  *
- * @package MuCTS\Sobot\Robot
+ * @package Ccwawamiya\Sobot\Robot
  */
 class QueryDocDetail extends Sobot
 {

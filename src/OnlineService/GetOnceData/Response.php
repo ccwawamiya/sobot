@@ -10,18 +10,18 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\GetOnceData;
+namespace Ccwawamiya\Sobot\OnlineService\GetOnceData;
 
-use MuCTS\Sobot\OnlineService\GetOnceData\Response\Item;
+use Ccwawamiya\Sobot\OnlineService\GetOnceData\Response\Item;
 
 /**
  * Class Response
  * @property-read string $ret_code
  * @property-read string $ret_msg
  * @property-read Item $item
- * @package MuCTS\Sobot\OnlineService\GetOnceData
+ * @package Ccwawamiya\Sobot\OnlineService\GetOnceData
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

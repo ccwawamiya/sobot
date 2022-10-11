@@ -10,11 +10,11 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\QueryDocDetail\Response;
+namespace Ccwawamiya\Sobot\Robot\QueryDocDetail\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
-use MuCTS\Sobot\Robot\QueryDocDetail\Response\Item\LinkQuestionList;
+use Ccwawamiya\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Robot\QueryDocDetail\Response\Item\LinkQuestionList;
 
 /**
  * Class Item
@@ -46,7 +46,7 @@ use MuCTS\Sobot\Robot\QueryDocDetail\Response\Item\LinkQuestionList;
  * @property-read string $update_time 更新时间
  * @property-read int $used_flag 词条状态，0启用，1手动停用，2系统停用，3过期停用
  * @property-read string $used_flag_cn 词条状态
- * @package MuCTS\Sobot\Robot\QueryDocDetail\Response
+ * @package Ccwawamiya\Sobot\Robot\QueryDocDetail\Response
  */
 class Item extends Response
 {

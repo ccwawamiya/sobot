@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets;
+namespace Ccwawamiya\Sobot\Tickets;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class SaveUserTicket
@@ -50,7 +50,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method SaveUserTicket fileStr(string $fileStr) 附件路径,多个附件，附件之间采用英文分号";"隔开
  * @method SaveUserTicket extendFields(array $extendFields) 工单自定义字段信息，格式：[["fieldid"=>"自定义字段ID","field_value"=>"自定义字段值"]]
  * @method SaveUserTicket pushExtendFieldsItem(string $fieldid, string $fieldValue) 追加工单自定义字段信息
- * @package MuCTS\Sobot\Tickets
+ * @package Ccwawamiya\Sobot\Tickets
  */
 class SaveUserTicket extends Sobot
 {

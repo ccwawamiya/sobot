@@ -1,10 +1,10 @@
 <?php
 
 
-namespace MuCTS\Sobot\Tickets;
+namespace Ccwawamiya\Sobot\Tickets;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class QueryAgentJobs
@@ -15,7 +15,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  *
  * @method QueryAgentJobs whereStartDatetime(string $startDatetime) 开始时间，2019-09-18 00:00:00
  * @method QueryAgentJobs whereEndDatetime(string $endDatetime) 结束时间，2019-09-18 23:59:59
- * @package MuCTS\Sobot\Tickets
+ * @package Ccwawamiya\Sobot\Tickets
  */
 class QueryAgentJobs extends Sobot
 {

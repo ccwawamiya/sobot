@@ -10,12 +10,12 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\SaveUserTicket\Response;
+namespace Ccwawamiya\Sobot\Tickets\SaveUserTicket\Response;
 
 /**
  * Class Item
  * @property-read string $ticketid 工单ID
- * @package MuCTS\Sobot\Tickets\SaveUserTicket\Response
+ * @package Ccwawamiya\Sobot\Tickets\SaveUserTicket\Response
  */
 class Item
 {

@@ -10,11 +10,11 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets;
+namespace Ccwawamiya\Sobot\Tickets;
 
 
-use MuCTS\Sobot\Contracts\Cache;
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Cache;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class UploadFile
@@ -29,7 +29,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  *
  * @method UploadFile file(string $file) 文件流,选择要上传的文件
  * @method UploadFile fileNumKey(string $fileNumKey) 上传文件标识,随机生成的值，用于判断上传文件数量
- * @package MuCTS\Sobot\Tickets
+ * @package Ccwawamiya\Sobot\Tickets
  */
 class UploadFile extends Sobot
 {

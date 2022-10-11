@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics\RobotSatisfaction\Response;
+namespace Ccwawamiya\Sobot\OnlineStatistics\RobotSatisfaction\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
@@ -23,7 +23,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read int $solved 已解决数
  * @property-read string $not_solved 未解决数
  * @property-read string $resolution_rate 已解决率
- * @package MuCTS\Sobot\OnlineStatistics\RobotSatisfaction\Response
+ * @package Ccwawamiya\Sobot\OnlineStatistics\RobotSatisfaction\Response
  */
 class Item extends Response
 {

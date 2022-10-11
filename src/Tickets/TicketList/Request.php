@@ -1,10 +1,10 @@
 <?php
 
 
-namespace MuCTS\Sobot\Tickets\TicketList;
+namespace Ccwawamiya\Sobot\Tickets\TicketList;
 
 
-use MuCTS\Sobot\Tickets\TicketList;
+use Ccwawamiya\Sobot\Tickets\TicketList;
 
 /**
  * Class Request
@@ -17,8 +17,8 @@ use MuCTS\Sobot\Tickets\TicketList;
  * @method Request whereDealAgentid($dealAgentid) 受理坐席ID
  * @method Request pageNo($pageNo) 当前页数，默认第一页
  * @method Request pageSize($pageSize) 当前页显示条数，默认每页显示15条，最大每页显示50条
- * @package MuCTS\Sobot\Tickets\TicketList
+ * @package Ccwawamiya\Sobot\Tickets\TicketList
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 }

@@ -10,15 +10,15 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\DataDict\Response;
+namespace Ccwawamiya\Sobot\Tickets\DataDict\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
-use MuCTS\Sobot\Tickets\DataDict\Response\Item\AgentList;
-use MuCTS\Sobot\Tickets\DataDict\Response\Item\GroupList;
-use MuCTS\Sobot\Tickets\DataDict\Response\Item\TicketLevelList;
-use MuCTS\Sobot\Tickets\DataDict\Response\Item\TicketStatusList;
-use MuCTS\Sobot\Tickets\DataDict\Response\Item\TicketTypeList;
+use Ccwawamiya\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Tickets\DataDict\Response\Item\AgentList;
+use Ccwawamiya\Sobot\Tickets\DataDict\Response\Item\GroupList;
+use Ccwawamiya\Sobot\Tickets\DataDict\Response\Item\TicketLevelList;
+use Ccwawamiya\Sobot\Tickets\DataDict\Response\Item\TicketStatusList;
+use Ccwawamiya\Sobot\Tickets\DataDict\Response\Item\TicketTypeList;
 
 /**
  * Class Item
@@ -27,7 +27,7 @@ use MuCTS\Sobot\Tickets\DataDict\Response\Item\TicketTypeList;
  * @property-read TicketStatusList[] $ticket_status_list 工单状态信息
  * @property-read GroupList[] $group_list 技能组信息
  * @property-read AgentList[] $agent_list 坐席信息
- * @package MuCTS\Sobot\Tickets\DataDict\Response
+ * @package Ccwawamiya\Sobot\Tickets\DataDict\Response
  */
 class Item extends Response
 {

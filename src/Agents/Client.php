@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents;
+namespace Ccwawamiya\Sobot\Agents;
 
 
-use MuCTS\Sobot\Contracts\Container;
+use Ccwawamiya\Sobot\Contracts\Container;
 
 /**
  * Class Client
@@ -30,7 +30,7 @@ use MuCTS\Sobot\Contracts\Container;
  * @method SaveGroups saveGroups() 新增技能组
  * @method UpdateAgent updateAgent() 更新坐席信息
  * @method UpdateGroups updateGroups() 更新技能组
- * @package MuCTS\Sobot\Agents
+ * @package Ccwawamiya\Sobot\Agents
  */
 class Client extends Container
 {

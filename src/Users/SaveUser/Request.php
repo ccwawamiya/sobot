@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\SaveUser;
+namespace Ccwawamiya\Sobot\Users\SaveUser;
 
 /**
  * Class Request
@@ -39,9 +39,9 @@ namespace MuCTS\Sobot\Users\SaveUser;
  * @method Request partnerid(?string $value) 对接ID
  * @method Request extendFieldParams(?array $value) 扩展字段信息，格式：[["fieldid" => "", "扩展字段ID", "field_value" => "扩展字段值"]]
  * @method Request remark(?string $value) 备注
- * @package MuCTS\Sobot\Users\SaveUser
+ * @package Ccwawamiya\Sobot\Users\SaveUser
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

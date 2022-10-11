@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\SaveAgent;
+namespace Ccwawamiya\Sobot\Agents\SaveAgent;
 
 /**
  * Class Request
@@ -32,9 +32,9 @@ namespace MuCTS\Sobot\Agents\SaveAgent;
  * @method Request agentRoleType(int $value) 坐席角色，4444：全功能管理员；9999：呼叫管理员；8888：工单管理员；7777：全功能客服；6669：呼叫客服；1111：在线客服；2222：在线管理员；5555：工单客服
  * @method Request departid(string $value) 部门ID
  * @method Request maxAccept(string $value) 最大接待上限，0-100的正整数
- * @package MuCTS\Sobot\Agents\SaveAgent
+ * @package Ccwawamiya\Sobot\Agents\SaveAgent
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
     /**
      * 技能组ID，坐席所属多技能组，技能组ID之间以逗号分隔

@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot;
+namespace Ccwawamiya\Sobot\Robot;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class SearchQuestionTypeList
@@ -27,7 +27,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method SearchQuestionTypeList whereRobotFlag(int $value) 知识库所属机器人：0公共知识库，1机器人一
  * @method SearchQuestionTypeList whereTypeFlag(?int $value) 分类类型：1-单轮问题分类(默认)；2-多轮问题分类
  *
- * @package MuCTS\Sobot\Robot
+ * @package Ccwawamiya\Sobot\Robot
  */
 class SearchQuestionTypeList extends Sobot
 {

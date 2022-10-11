@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService;
+namespace Ccwawamiya\Sobot\OnlineService;
 
 
-use MuCTS\Sobot\Contracts\Container;
+use Ccwawamiya\Sobot\Contracts\Container;
 
 /**
  * Class Client
@@ -30,7 +30,7 @@ use MuCTS\Sobot\Contracts\Container;
  * @method QueryCIds queryCIds() 查询客户会话列表
  * @method QueryGroup queryGroup() 查询在线技能组列表
  * @method QuerySummary querySummary() 查询服务总结记录
- * @package MuCTS\Sobot\OnlineService
+ * @package Ccwawamiya\Sobot\OnlineService
  */
 class Client extends Container
 {

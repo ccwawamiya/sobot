@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users;
+namespace Ccwawamiya\Sobot\Users;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class QueryUserFixedExtendFields
@@ -24,7 +24,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * 备注：
  * 1、此处查询为客户固定字段配置信息，例如，VIP级别。
  *
- * @package MuCTS\Sobot\Users
+ * @package Ccwawamiya\Sobot\Users
  */
 class QueryUserFixedExtendFields extends Sobot
 {

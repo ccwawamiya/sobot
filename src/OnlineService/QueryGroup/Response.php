@@ -10,19 +10,19 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\QueryGroup;
+namespace Ccwawamiya\Sobot\OnlineService\QueryGroup;
 
 
-use MuCTS\Sobot\OnlineService\QueryGroup\Response\Items;
+use Ccwawamiya\Sobot\OnlineService\QueryGroup\Response\Items;
 
 /**
  * Class Response
  * @property-read string $ret_code
  * @property-read string $ret_msg
  * @property-read Items[] $items
- * @package MuCTS\Sobot\OnlineService\QueryGroup
+ * @package Ccwawamiya\Sobot\OnlineService\QueryGroup
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

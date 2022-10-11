@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics;
+namespace Ccwawamiya\Sobot\OnlineStatistics;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class QualityResult
@@ -28,7 +28,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method QualityResult wherePage(int $value) 当前页码
  * @method QualityResult whereSize(int $value) 每页条数（默认100，最大可传入10000）
  *
- * @package MuCTS\Sobot\OnlineStatistics
+ * @package Ccwawamiya\Sobot\OnlineStatistics
  */
 class QualityResult extends Sobot
 {

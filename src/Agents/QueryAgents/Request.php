@@ -10,15 +10,15 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\QueryAgents;
+namespace Ccwawamiya\Sobot\Agents\QueryAgents;
 
 /**
  * Class Request
  * @method Request pageNo(int $value) 起始页码, 不传或参数为错误值, 默认1
  * @method Request pageSize(int $value) 每页条数, 不传或参数为错误值, 默认每页15条
- * @package MuCTS\Sobot\Agents\QueryAgents
+ * @package Ccwawamiya\Sobot\Agents\QueryAgents
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

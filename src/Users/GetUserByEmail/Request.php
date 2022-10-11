@@ -10,14 +10,14 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\GetUserByEmail;
+namespace Ccwawamiya\Sobot\Users\GetUserByEmail;
 
 /**
  * Class Request
  * @method Request whereUserEmails(string $value) 客户邮箱，此参数只允许单一值
- * @package MuCTS\Sobot\Users\GetUserByEmail
+ * @package Ccwawamiya\Sobot\Users\GetUserByEmail
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

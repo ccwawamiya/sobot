@@ -10,17 +10,17 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\OfflineMsgData\Response\Item\MsgData;
+namespace Ccwawamiya\Sobot\OnlineService\OfflineMsgData\Response\Item\MsgData;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class MsgList
  * @property-read string $cid 会话id
  * @property-read string $msg 消息体
  * @property-read string $ts 发送消息时间	
- * @package MuCTS\Sobot\OnlineService\OfflineMsgData\Response\Item\MsgData
+ * @package Ccwawamiya\Sobot\OnlineService\OfflineMsgData\Response\Item\MsgData
  */
 class MsgList extends Response
 {

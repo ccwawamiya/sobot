@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\UpdateRobotDoc;
+namespace Ccwawamiya\Sobot\Robot\UpdateRobotDoc;
 
 /**
  * Class Request
@@ -39,9 +39,9 @@ namespace MuCTS\Sobot\Robot\UpdateRobotDoc;
  * @method Request auditStatus(int $value) 有效状态：1永久有效；2指定时间有效
  * @method Request effectTime(string $value) 生效时间，格式：yyyy-MM-dd HH:mm:ss
  * @method Request invalidTime(string $value) 失效时间，格式：yyyy-MM-dd HH:mm:ss
- * @package MuCTS\Sobot\Robot\UpdateRobotDoc
+ * @package Ccwawamiya\Sobot\Robot\UpdateRobotDoc
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

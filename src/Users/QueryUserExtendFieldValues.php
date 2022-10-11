@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users;
+namespace Ccwawamiya\Sobot\Users;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class QueryUserExtendFieldValues
@@ -24,7 +24,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  *
  * @method QueryUserExtendFieldValues whereUserid(string $value) 客户ID
  *
- * @package MuCTS\Sobot\Users
+ * @package Ccwawamiya\Sobot\Users
  */
 class QueryUserExtendFieldValues extends Sobot
 {

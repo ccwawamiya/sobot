@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\UpdateUser\Response;
+namespace Ccwawamiya\Sobot\Users\UpdateUser\Response;
 
 
-class Item extends \MuCTS\Sobot\Users\SaveUser\Response\Item
+class Item extends \Ccwawamiya\Sobot\Users\SaveUser\Response\Item
 {
 
 }

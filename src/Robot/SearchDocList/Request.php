@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\SearchDocList;
+namespace Ccwawamiya\Sobot\Robot\SearchDocList;
 
 /**
  * Class Request
@@ -33,9 +33,9 @@ namespace MuCTS\Sobot\Robot\SearchDocList;
  * @method Request whereEffectEndDate(?string $value) 生效结束时间
  * @method Request whereInvalidStartDate(?string $value) 失效开始时间
  * @method Request whereInvalidEndDate(?string $value) 失效结束时间
- * @package MuCTS\Sobot\Robot\SearchDocList
+ * @package Ccwawamiya\Sobot\Robot\SearchDocList
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\SaveGroupAgent;
+namespace Ccwawamiya\Sobot\Agents\SaveGroupAgent;
 
 /**
  * Class Request
  * @property-write string $agent_ids 坐席id,多个坐席id用英文逗号","隔开
  *
  * @method Request whereGroupid(string $value) 技能组id
- * @package MuCTS\Sobot\Agents\SaveAgent
+ * @package Ccwawamiya\Sobot\Agents\SaveAgent
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
     /**
      * 坐席id,多个坐席id用英文逗号","隔开

@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics\ReceiveOrderData;
+namespace Ccwawamiya\Sobot\OnlineStatistics\ReceiveOrderData;
 
 
 /**
@@ -28,9 +28,9 @@ namespace MuCTS\Sobot\OnlineStatistics\ReceiveOrderData;
  * @method  Request cusPartnerid(string $value) 下订单客户对接ID，不能大于32个字符
  * @method  Request orderTime(string $value) 订单时间，格式：2019-09-25 15:49:33
  * @method  Request orderMoney(float $value) 订单金额，最大支持小数点后两位
- * @package MuCTS\Sobot\OnlineStatistics\ReceiveOrderData
+ * @package Ccwawamiya\Sobot\OnlineStatistics\ReceiveOrderData
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

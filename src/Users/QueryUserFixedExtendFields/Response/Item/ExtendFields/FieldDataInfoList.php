@@ -10,17 +10,17 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\QueryUserFixedExtendFields\Response\Item\ExtendFields;
+namespace Ccwawamiya\Sobot\Users\QueryUserFixedExtendFields\Response\Item\ExtendFields;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class FieldDataInfoList
  * @property-read string $data_name 选项名称
  * @property-read string $data_value 选项值
  * @property-read string $dataid 选项id
- * @package MuCTS\Sobot\Users\QueryUserFixedExtendFields\Response\Item\ExtendFields
+ * @package Ccwawamiya\Sobot\Users\QueryUserFixedExtendFields\Response\Item\ExtendFields
  */
 class FieldDataInfoList extends Response
 {

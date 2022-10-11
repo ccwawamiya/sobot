@@ -10,13 +10,13 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\QueryUserExtendFields;
+namespace Ccwawamiya\Sobot\Users\QueryUserExtendFields;
 
 /**
  * Class Request
- * @package MuCTS\Sobot\Users\QueryUserExtendFields
+ * @package Ccwawamiya\Sobot\Users\QueryUserExtendFields
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

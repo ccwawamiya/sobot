@@ -10,14 +10,14 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\GetUserById;
+namespace Ccwawamiya\Sobot\Users\GetUserById;
 
 /**
  * Class Request
  * @method Request whereUserid(string $userId) 客户ID，此参数只允许单一值
- * @package MuCTS\Sobot\Users\GetUserById
+ * @package Ccwawamiya\Sobot\Users\GetUserById
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

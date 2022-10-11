@@ -10,11 +10,11 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\QueryAgents\Response;
+namespace Ccwawamiya\Sobot\Agents\QueryAgents\Response;
 
 
-use MuCTS\Sobot\Agents\QueryAgents\Response\Items\Groups;
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Agents\QueryAgents\Response\Items\Groups;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Items
@@ -32,7 +32,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string|null $group_name 坐席所属技能组名称，坐席所属多技能组，技能组名称之间以分号分隔
  * @property-read string|null $phone_no 坐席手机号
  * @property-read Groups[] $groups 坐席所属技能组信息，groupid（技能组id）group_name（技能组名称）group_type（技能组类别 0 工单坐席组，1在线坐席组，2电话坐席组，3 电销组）
- * @package MuCTS\Sobot\Agents\QueryAgents\Response
+ * @package Ccwawamiya\Sobot\Agents\QueryAgents\Response
  */
 class Items extends Response
 {

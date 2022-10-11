@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\GetDetailByCId\Response;
+namespace Ccwawamiya\Sobot\OnlineService\GetDetailByCId\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Items
@@ -31,7 +31,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read int $msg_type 消息类型：0-文本，1-图片，2-音频，3-富文本
  * @property-read string $msg_type_cn 消息类型
  * @property-read string $cid 会话ID
- * @package MuCTS\Sobot\OnlineService\QueryCIds\Response
+ * @package Ccwawamiya\Sobot\OnlineService\QueryCIds\Response
  */
 class Items extends Response
 {

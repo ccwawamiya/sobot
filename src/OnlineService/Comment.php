@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService;
+namespace Ccwawamiya\Sobot\OnlineService;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class Comment
@@ -39,7 +39,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method Comment remark(?string $remark)  评价内容
  * @method Comment commentType(?string $commentType)  评价类型：0-邀请评价，1-主动评价
  *
- * @package MuCTS\Sobot\OnlineService
+ * @package Ccwawamiya\Sobot\OnlineService
  */
 class Comment extends Sobot
 {

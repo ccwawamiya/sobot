@@ -10,17 +10,17 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\RobotChat\Response\Item;
+namespace Ccwawamiya\Sobot\Robot\RobotChat\Response\Item;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Suggestions
  * @property-read string $question  推荐问题的名称
  * @property-read string $answer  推荐问题的答案
  * @property-read string $docid  推荐问题的词条Id
- * @package MuCTS\Sobot\Robot\RobotChat\Response\Item
+ * @package Ccwawamiya\Sobot\Robot\RobotChat\Response\Item
  */
 class Suggestions extends Response
 {

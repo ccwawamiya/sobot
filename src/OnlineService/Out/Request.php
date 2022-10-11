@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\Out;
+namespace Ccwawamiya\Sobot\OnlineService\Out;
 
 
 /**
  * Class Request
  * @property-write string $partnerid 企业自己的用户id，可自行传值
  * @method Request partnerid(string $partnerid) 企业自己的用户id，可自行传值
- * @package MuCTS\Sobot\OnlineService\Out
+ * @package Ccwawamiya\Sobot\OnlineService\Out
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

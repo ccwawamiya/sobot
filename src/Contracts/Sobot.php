@@ -1,24 +1,24 @@
 <?php
 
 
-namespace MuCTS\Sobot\Contracts;
+namespace Ccwawamiya\Sobot\Contracts;
 
 
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
-use MuCTS\Sobot\Code;
-use MuCTS\Sobot\Exceptions\ConfigException;
-use MuCTS\Sobot\Exceptions\NotFoundException;
-use MuCTS\Sobot\Exceptions\ResponseException;
-use MuCTS\Sobot\Exceptions\SobotException;
-use MuCTS\Sobot\Token\Token;
+use Ccwawamiya\Sobot\Code;
+use Ccwawamiya\Sobot\Exceptions\ConfigException;
+use Ccwawamiya\Sobot\Exceptions\NotFoundException;
+use Ccwawamiya\Sobot\Exceptions\ResponseException;
+use Ccwawamiya\Sobot\Exceptions\SobotException;
+use Ccwawamiya\Sobot\Token\Token;
 use Psr\Http\Message\StreamInterface;
 
 /**
  * Class Sobot
  * @property-read Request $request
- * @package MuCTS\Sobot\Contracts
+ * @package Ccwawamiya\Sobot\Contracts
  */
 abstract class Sobot
 {
@@ -51,7 +51,7 @@ abstract class Sobot
     public function __construct(array $config, ?Cache $cache = null)
     {
         $this->setConfig($config);
-        $this->host = 'https://www.sobot.com';
+        $this->host = 'https://www.soboten.com';
         $this->cache = $cache;
     }
 

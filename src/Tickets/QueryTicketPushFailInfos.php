@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets;
+namespace Ccwawamiya\Sobot\Tickets;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class QueryTicketPushFailInfos
@@ -26,7 +26,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method QueryTicketPushFailInfos whereEndDatetime(string $endDatetime) 结束时间，2019-09-18 23:59:59
  * @method QueryTicketPushFailInfos pageNo(int $pageNo)	 当前页数，默认第一页
  * @method QueryTicketPushFailInfos pageSize(int $pageSize) 当前页显示条数，默认每页显示15条，最大每页显示50条
- * @package MuCTS\Sobot\Tickets
+ * @package Ccwawamiya\Sobot\Tickets
  */
 class QueryTicketPushFailInfos extends Sobot
 {

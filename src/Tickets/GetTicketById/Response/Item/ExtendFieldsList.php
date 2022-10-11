@@ -1,10 +1,10 @@
 <?php
 
 
-namespace MuCTS\Sobot\Tickets\GetTicketById\Response\Item;
+namespace Ccwawamiya\Sobot\Tickets\GetTicketById\Response\Item;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class ExtendFieldsList
@@ -14,7 +14,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $field_type_cn 自定义字段类型
  * @property-read string|null $field_text 选择型字段选项文本值
  * @property-read string $field_value 自定义字段值
- * @package MuCTS\Sobot\Tickets\GetTicketById\Response\Item
+ * @package Ccwawamiya\Sobot\Tickets\GetTicketById\Response\Item
  */
 class ExtendFieldsList extends Response
 {

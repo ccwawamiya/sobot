@@ -10,18 +10,18 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\SaveAgentTicket;
+namespace Ccwawamiya\Sobot\Tickets\SaveAgentTicket;
 
-use MuCTS\Sobot\Tickets\SaveAgentTicket\Response\Item;
+use Ccwawamiya\Sobot\Tickets\SaveAgentTicket\Response\Item;
 
 /**
  * Class Response
  * @property-read string $ret_code
  * @property-read string $ret_msg
  * @property-read Item $item
- * @package MuCTS\Sobot\Tickets\SaveAgentTicket
+ * @package Ccwawamiya\Sobot\Tickets\SaveAgentTicket
  */
-class Response extends \MuCTS\Sobot\Contracts\Request
+class Response extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

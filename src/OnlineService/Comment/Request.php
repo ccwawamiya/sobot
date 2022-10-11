@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\Comment;
+namespace Ccwawamiya\Sobot\OnlineService\Comment;
 
 /**
  * Class Request
@@ -29,9 +29,9 @@ namespace MuCTS\Sobot\OnlineService\Comment;
  * @method Request tag(?string $tag) 评价标签，多个用逗号分隔
  * @method Request remark(?string $remark)  评价内容
  * @method Request commentType(?string $commentType)  评价类型：0-邀请评价，1-主动评价
- * @package MuCTS\Sobot\OnlineService\Comment
+ * @package Ccwawamiya\Sobot\OnlineService\Comment
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

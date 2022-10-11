@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents;
+namespace Ccwawamiya\Sobot\Agents;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class SaveAgent
@@ -41,7 +41,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method SaveAgent groupIds($value) 技能组ID，坐席所属多技能组，技能组ID之间以逗号分隔
  * @method SaveAgent maxAccept(string $value) 最大接待上限，0-100的正整数
  *
- * @package MuCTS\Sobot\Agents
+ * @package Ccwawamiya\Sobot\Agents
  */
 class SaveAgent extends Sobot
 {

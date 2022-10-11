@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\SaveTicketReply;
+namespace Ccwawamiya\Sobot\Tickets\SaveTicketReply;
 
 /**
  * Class Request
@@ -48,9 +48,9 @@ namespace MuCTS\Sobot\Tickets\SaveTicketReply;
  * @method Request copyAgent(?array $copyAgent)
  * @property-write array|null extend_fields 工单自定义字段信息，格式：[["fieldid"=>"自定义字段ID","field_value"=>"自定义字段值"]]
  * @method Request extendFields(?array $extendFields)
- * @package MuCTS\Sobot\Tickets\Request
+ * @package Ccwawamiya\Sobot\Tickets\Request
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
     /**
      * 追加工单自定义字段信息

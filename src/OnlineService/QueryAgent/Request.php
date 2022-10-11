@@ -10,13 +10,13 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\QueryAgent;
+namespace Ccwawamiya\Sobot\OnlineService\QueryAgent;
 
 /**
  * Class Request
- * @package MuCTS\Sobot\OnlineService\QueryAgent
+ * @package Ccwawamiya\Sobot\OnlineService\QueryAgent
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

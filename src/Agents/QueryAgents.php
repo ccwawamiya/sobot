@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents;
+namespace Ccwawamiya\Sobot\Agents;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class QueryAgents
@@ -25,7 +25,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method QueryAgents pageNo(int $value) 起始页码, 不传或参数为错误值, 默认1
  * @method QueryAgents pageSize(int $value) 每页条数, 不传或参数为错误值, 默认每页15条
  *
- * @package MuCTS\Sobot\Agents
+ * @package Ccwawamiya\Sobot\Agents
  */
 class QueryAgents extends Sobot
 {

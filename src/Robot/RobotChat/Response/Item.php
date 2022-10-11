@@ -10,12 +10,12 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\RobotChat\Response;
+namespace Ccwawamiya\Sobot\Robot\RobotChat\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
-use MuCTS\Sobot\Robot\RobotChat\Response\Item\MultiResponseInfo;
-use MuCTS\Sobot\Robot\RobotChat\Response\Item\Suggestions;
+use Ccwawamiya\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Robot\RobotChat\Response\Item\MultiResponseInfo;
+use Ccwawamiya\Sobot\Robot\RobotChat\Response\Item\Suggestions;
 
 /**
  * Class Item
@@ -33,7 +33,7 @@ use MuCTS\Sobot\Robot\RobotChat\Response\Item\Suggestions;
  * @property-read  int $transfer_type 触发转人工类型 0:不触发，1:重复提问，2:负向情绪，3:命中关键字
  * @property-read  string $transfer_type_cn 触发转人工类型
  * @property-read  MultiResponseInfo $multi_response_info 多轮会话返回数据
- * @package MuCTS\Sobot\Robot\RobotChat\Response
+ * @package Ccwawamiya\Sobot\Robot\RobotChat\Response
  */
 class Item extends Response
 {

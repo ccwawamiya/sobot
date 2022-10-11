@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\SearchQuestionTypeList;
+namespace Ccwawamiya\Sobot\Robot\SearchQuestionTypeList;
 
 
 /**
@@ -18,9 +18,9 @@ namespace MuCTS\Sobot\Robot\SearchQuestionTypeList;
  * @method Request whereParentTypeid(string $value) 父级分类id，顶级分类id-1
  * @method Request whereRobotFlag(int $value) 知识库所属机器人：0公共知识库，1机器人一
  * @method Request whereTypeFlag(?int $value) 分类类型：1-单轮问题分类(默认)；2-多轮问题分类
- * @package MuCTS\Sobot\Robot\SearchQuestionTypeList
+ * @package Ccwawamiya\Sobot\Robot\SearchQuestionTypeList
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

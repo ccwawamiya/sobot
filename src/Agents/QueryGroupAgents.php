@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents;
+namespace Ccwawamiya\Sobot\Agents;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class QueryAgents
@@ -24,7 +24,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  *
  * @method QueryGroupAgents whereGroupid(string $value) 技能组id
  *
- * @package MuCTS\Sobot\Agents
+ * @package Ccwawamiya\Sobot\Agents
  */
 class QueryGroupAgents extends Sobot
 {

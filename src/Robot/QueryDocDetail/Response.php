@@ -10,19 +10,19 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\QueryDocDetail;
+namespace Ccwawamiya\Sobot\Robot\QueryDocDetail;
 
 
-use MuCTS\Sobot\Robot\QueryDocDetail\Response\Item;
+use Ccwawamiya\Sobot\Robot\QueryDocDetail\Response\Item;
 
 /**
  * Class Response
  * @property-read string $ret_code 返回编码
  * @property-read string $ret_msg 返回信息
  * @property-read Item $item 返回对象
- * @package MuCTS\Sobot\Robot\QueryDocDetail
+ * @package Ccwawamiya\Sobot\Robot\QueryDocDetail
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\RobotFeedback;
+namespace Ccwawamiya\Sobot\Robot\RobotFeedback;
 
 /**
  * Class Request
@@ -33,9 +33,9 @@ namespace MuCTS\Sobot\Robot\RobotFeedback;
  * @method Request msgid(string $value) 消息id
  * @method Request partnerid(?string $value) 企业自己的用户id，可自行传值
  * @method Request from(int $value) 客户来源，0:开放平台；1:web、sdk；2:微信
- * @package MuCTS\Sobot\Robot\RobotFeedback
+ * @package Ccwawamiya\Sobot\Robot\RobotFeedback
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

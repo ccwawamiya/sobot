@@ -1,10 +1,10 @@
 <?php
 
 
-namespace MuCTS\Sobot\Tickets\TicketList\Response;
+namespace Ccwawamiya\Sobot\Tickets\TicketList\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Items
@@ -30,7 +30,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $user_name 客户名称
  * @property-read string $user_tels 客户电话,多个电话号码，号码之间采用英文逗号","隔开
  * @property-read string $user_emails 客户邮箱,多个邮箱，邮箱之间采用英文逗号","隔开
- * @package MuCTS\Sobot\Tickets\TicketList\Response
+ * @package Ccwawamiya\Sobot\Tickets\TicketList\Response
  */
 class Items extends Response
 {

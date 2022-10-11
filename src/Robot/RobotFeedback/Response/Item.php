@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\RobotFeedback\Response;
+namespace Ccwawamiya\Sobot\Robot\RobotFeedback\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
  * @property-read int $ustatus 用户状态 -2：排队，-1：机器人，0：离线，1-在线
  * @property-read string $ustatus_cn 用户状态
- * @package MuCTS\Sobot\Robot\RobotFeedback\Response
+ * @package Ccwawamiya\Sobot\Robot\RobotFeedback\Response
  */
 class Item extends Response
 {

@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\TicketExtendFields\Response\Items;
+namespace Ccwawamiya\Sobot\Tickets\TicketExtendFields\Response\Items;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class FieldDataList
  * @property-read string $data_name 自定义字段选项名称
  * @property-read string $data_value 自定义字段选项CODE值
- * @package MuCTS\Sobot\Tickets\TicketExtendFields\Response\Items
+ * @package Ccwawamiya\Sobot\Tickets\TicketExtendFields\Response\Items
  */
 class FieldDataList extends Response
 {

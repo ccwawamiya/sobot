@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics\HumanSatisfaction\Response;
+namespace Ccwawamiya\Sobot\OnlineStatistics\HumanSatisfaction\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
@@ -39,7 +39,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read int $score3 3分数
  * @property-read int $score2 2分数
  * @property-read int $score1 1分数
- * @package MuCTS\Sobot\OnlineStatistics\HumanSatisfaction\Response
+ * @package Ccwawamiya\Sobot\OnlineStatistics\HumanSatisfaction\Response
  */
 class Item extends Response
 {

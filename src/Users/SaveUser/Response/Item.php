@@ -10,17 +10,17 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\SaveUser\Response;
+namespace Ccwawamiya\Sobot\Users\SaveUser\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
  * @property-read string $userid 客户ID
  * @property-read string $user_nick 客户昵称
  * @property-read string $companyid 公司ID
- * @package MuCTS\Sobot\Users\SaveUser\Response
+ * @package Ccwawamiya\Sobot\Users\SaveUser\Response
  */
 class Item extends Response
 {

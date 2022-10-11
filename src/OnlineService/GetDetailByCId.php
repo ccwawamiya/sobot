@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService;
+namespace Ccwawamiya\Sobot\OnlineService;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class QueryCIds
@@ -34,7 +34,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method GetDetailByCId whereNameFlag(?int $value) 客服名字类型：0.昵称（默认） 1.真实姓名
  *
  * @link https://www.sobot.com/developerdocs/service/online_service.html#_2-9%E3%80%81%E6%9F%A5%E8%AF%A2%E5%AE%A2%E6%88%B7%E4%BC%9A%E8%AF%9D%E8%AE%B0%E5%BD%95
- * @package MuCTS\Sobot\OnlineService
+ * @package Ccwawamiya\Sobot\OnlineService
  */
 class GetDetailByCId extends Sobot
 {

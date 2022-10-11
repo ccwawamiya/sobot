@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents;
+namespace Ccwawamiya\Sobot\Agents;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class QueryAgentRoles
@@ -22,7 +22,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * 接口说明：
  * 获取系统中添加坐席所需的角色信息。
  *
- * @package MuCTS\Sobot\Agents
+ * @package Ccwawamiya\Sobot\Agents
  */
 class QueryAgentRoles extends Sobot
 {

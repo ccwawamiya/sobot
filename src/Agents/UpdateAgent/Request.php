@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\UpdateAgent;
+namespace Ccwawamiya\Sobot\Agents\UpdateAgent;
 
 /**
  * Class Request
@@ -32,9 +32,9 @@ namespace MuCTS\Sobot\Agents\UpdateAgent;
  * @method Request phoneNo(string $value) 坐席手机号
  * @method Request agentStatus(int $value) 坐席状态，0未激活，1启用中，9停用，-1删除 (坐席状态是已启用可以修改为停用，反之停用可以修改为启用，其余状态不可修改)
  *
- * @package MuCTS\Sobot\Agents\UpdateAgent
+ * @package Ccwawamiya\Sobot\Agents\UpdateAgent
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
     /**
      * 技能组ID，坐席所属多技能组，技能组ID之间以逗号分隔

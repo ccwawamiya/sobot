@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\OssDirectUrl;
+namespace Ccwawamiya\Sobot\OnlineService\OssDirectUrl;
 
 /**
  * Class Request
@@ -21,9 +21,9 @@ namespace MuCTS\Sobot\OnlineService\OssDirectUrl;
  * @method Request agentEmail(string $value) 客服邮箱
  * @method Request type(int $value) 登录页面，1:旧版工作台，2:新版工作台，如果不传，返回的页面链接是智齿管理后台页面
  *
- * @package MuCTS\Sobot\OnlineService\OssDirectUrl
+ * @package Ccwawamiya\Sobot\OnlineService\OssDirectUrl
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

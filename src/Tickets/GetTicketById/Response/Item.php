@@ -10,14 +10,14 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\GetTicketById\Response;
+namespace Ccwawamiya\Sobot\Tickets\GetTicketById\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
-use MuCTS\Sobot\Tickets\GetTicketById\Response\Item\DealList;
-use MuCTS\Sobot\Tickets\GetTicketById\Response\Item\ExtendFieldsList;
-use MuCTS\Sobot\Tickets\GetTicketById\Response\Item\FileList;
-use MuCTS\Sobot\Tickets\GetTicketById\Response\Item\UpdateLogList;
+use Ccwawamiya\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Tickets\GetTicketById\Response\Item\DealList;
+use Ccwawamiya\Sobot\Tickets\GetTicketById\Response\Item\ExtendFieldsList;
+use Ccwawamiya\Sobot\Tickets\GetTicketById\Response\Item\FileList;
+use Ccwawamiya\Sobot\Tickets\GetTicketById\Response\Item\UpdateLogList;
 
 /**
  * Class Item
@@ -46,7 +46,7 @@ use MuCTS\Sobot\Tickets\GetTicketById\Response\Item\UpdateLogList;
  * @property-read ExtendFieldsList[]|null $extend_fields_list 工单自定义字段
  * @property-read DealList[]|null $deal_list 工单全部回复
  * @property-read UpdateLogList[]|null $update_log_list	工单操作记录
- * @package MuCTS\Sobot\Tickets\GetTicketById\Response
+ * @package Ccwawamiya\Sobot\Tickets\GetTicketById\Response
  */
 class Item extends Response
 {

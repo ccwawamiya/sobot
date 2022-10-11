@@ -10,19 +10,19 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\UploadFile;
+namespace Ccwawamiya\Sobot\Tickets\UploadFile;
 
 
-use MuCTS\Sobot\Tickets\UploadFile\Response\Item;
+use Ccwawamiya\Sobot\Tickets\UploadFile\Response\Item;
 
 /**
  * Class Response
  * @property-read string $ret_code
  * @property-read string $ret_msg
  * @property-read Item $item
- * @package MuCTS\Sobot\Tickets\UploadFile
+ * @package Ccwawamiya\Sobot\Tickets\UploadFile
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

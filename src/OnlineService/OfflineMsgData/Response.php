@@ -10,19 +10,19 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\OfflineMsgData;
+namespace Ccwawamiya\Sobot\OnlineService\OfflineMsgData;
 
 
-use MuCTS\Sobot\OnlineService\OfflineMsgData\Response\Item;
+use Ccwawamiya\Sobot\OnlineService\OfflineMsgData\Response\Item;
 
 /**
  * Class Response
  * @property-read string $ret_code
  * @property-read string $ret_msg
  * @property-read Item $item
- * @package MuCTS\Sobot\OnlineService\OfflineMsgData
+ * @package Ccwawamiya\Sobot\OnlineService\OfflineMsgData
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

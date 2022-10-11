@@ -10,17 +10,17 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\QueryAgentRoles\Response;
+namespace Ccwawamiya\Sobot\Agents\QueryAgentRoles\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Items
  * @property-read string $dict_value 角色ID
  * @property-read string $dict_name 角色名称
  * @property-read string $dict_remark 备注
- * @package MuCTS\Sobot\Agents\QueryAgentRoles\Response
+ * @package Ccwawamiya\Sobot\Agents\QueryAgentRoles\Response
  */
 class Items extends Response
 {

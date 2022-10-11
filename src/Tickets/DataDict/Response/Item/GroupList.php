@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\DataDict\Response\Item;
+namespace Ccwawamiya\Sobot\Tickets\DataDict\Response\Item;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class GroupList
@@ -21,7 +21,7 @@ use MuCTS\Sobot\Contracts\Response;
  *
  * @property-read string $groupid 技能组ID
  * @property-read string $group_name 技能组名称
- * @package MuCTS\Sobot\Tickets\DataDict\Response\Item
+ * @package Ccwawamiya\Sobot\Tickets\DataDict\Response\Item
  */
 class GroupList extends Response
 {

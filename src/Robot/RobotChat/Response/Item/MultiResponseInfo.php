@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\RobotChat\Response\Item;
+namespace Ccwawamiya\Sobot\Robot\RobotChat\Response\Item;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class MultiResponseInfo
@@ -32,7 +32,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $conversationid 多轮会话id
  * @property-read int $template 模板id
  * @property-read string $end_flag 多轮会话结束标记
- * @package MuCTS\Sobot\Robot\RobotChat\Response\Item
+ * @package Ccwawamiya\Sobot\Robot\RobotChat\Response\Item
  */
 class MultiResponseInfo extends Response
 {

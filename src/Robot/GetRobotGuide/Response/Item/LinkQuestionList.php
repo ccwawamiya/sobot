@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\GetRobotGuide\Response\Item;
+namespace Ccwawamiya\Sobot\Robot\GetRobotGuide\Response\Item;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class LinkQuestionList
@@ -21,7 +21,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $docid 词条id
  * @property-read string $guide_question_disname 显示名称
  * @property-read string $guide_question 标准问法
- * @package MuCTS\Sobot\Robot\GetRobotGuide\Response\Item
+ * @package Ccwawamiya\Sobot\Robot\GetRobotGuide\Response\Item
  */
 class LinkQuestionList extends Response
 {

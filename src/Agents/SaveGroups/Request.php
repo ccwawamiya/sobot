@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\SaveGroups;
+namespace Ccwawamiya\Sobot\Agents\SaveGroups;
 
 /**
  * Class Request
@@ -19,9 +19,9 @@ namespace MuCTS\Sobot\Agents\SaveGroups;
  *
  * @method Request groupName(string $value) 技能组名称
  * @method Request groupType(int $value) 技能组类型，0工单客服组，1在线客服组，2电话客服组，3 电销组
- * @package MuCTS\Sobot\Agents\SaveGroups
+ * @package Ccwawamiya\Sobot\Agents\SaveGroups
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

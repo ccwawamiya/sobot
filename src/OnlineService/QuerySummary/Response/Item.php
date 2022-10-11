@@ -10,11 +10,11 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\QuerySummary\Response;
+namespace Ccwawamiya\Sobot\OnlineService\QuerySummary\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
-use MuCTS\Sobot\OnlineService\QuerySummary\Response\Item\Fields;
+use Ccwawamiya\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\OnlineService\QuerySummary\Response\Item\Fields;
 
 /**
  * Class Item
@@ -31,7 +31,7 @@ use MuCTS\Sobot\OnlineService\QuerySummary\Response\Item\Fields;
  * @property-read Fields[] $fields 自定义字段列表
  * @property-read string $summary_staff_name 总结客服
  * @property-read string $cid 会话id
- * @package MuCTS\Sobot\OnlineService\QuerySummary\Response
+ * @package Ccwawamiya\Sobot\OnlineService\QuerySummary\Response
  */
 class Item extends Response
 {

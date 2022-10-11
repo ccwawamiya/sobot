@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics\ExportData\Response;
+namespace Ccwawamiya\Sobot\OnlineStatistics\ExportData\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
@@ -23,7 +23,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $result_date 日期
  * @property-read string $file_path 文件路径
  * @property-read string $description 描述
- * @package MuCTS\Sobot\OnlineStatistics\ExportData\Response
+ * @package Ccwawamiya\Sobot\OnlineStatistics\ExportData\Response
  */
 class Item extends Response
 {

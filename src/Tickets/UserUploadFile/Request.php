@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\UserUploadFile;
+namespace Ccwawamiya\Sobot\Tickets\UserUploadFile;
 
 /**
  * Class Request
@@ -19,9 +19,9 @@ namespace MuCTS\Sobot\Tickets\UserUploadFile;
  *
  * @method Request file(string $file) 文件流,选择要上传的文件
  * @method Request fileNumKey(string $fileNumKey) 上传文件标识,随机生成的值，用于判断上传文件数量
- * @package MuCTS\Sobot\Tickets\UserUploadFile
+ * @package Ccwawamiya\Sobot\Tickets\UserUploadFile
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

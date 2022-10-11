@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\Out\Response;
+namespace Ccwawamiya\Sobot\OnlineService\Out\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
  * @property-read int status 状态：1.成功
  * @property-read string status_cn 状态
- * @package MuCTS\Sobot\OnlineService\Out\Response
+ * @package Ccwawamiya\Sobot\OnlineService\Out\Response
  */
 class Item extends Response
 {

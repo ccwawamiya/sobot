@@ -1,11 +1,11 @@
 <?php
 
 
-namespace MuCTS\Sobot\Contracts;
+namespace Ccwawamiya\Sobot\Contracts;
 /**
  * Trait ResponseCnEnum
  * @mixin Response
- * @package MuCTS\Sobot\Contracts
+ * @package Ccwawamiya\Sobot\Contracts
  */
 trait ResponseCnEnum
 {

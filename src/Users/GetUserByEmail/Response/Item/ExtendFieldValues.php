@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\GetUserByEmail\Response\Item;
+namespace Ccwawamiya\Sobot\Users\GetUserByEmail\Response\Item;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class ExtendFieldValues
@@ -22,7 +22,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string|null $field_text 扩展字段文本值，针对选项类型的字段
  * @property-read int $field_type 字段类型,1、单行文本2、多行文本3、日期4、时间5、数值6、下拉列表（选项）7、单选框（选项）8、复选框（选项）
  * @property-read string $field_type_cn 字段类型
- * @package MuCTS\Sobot\Users\GetUserByEmail\Response\Item
+ * @package Ccwawamiya\Sobot\Users\GetUserByEmail\Response\Item
  */
 class ExtendFieldValues extends Response
 {

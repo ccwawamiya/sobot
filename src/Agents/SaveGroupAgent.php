@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents;
+namespace Ccwawamiya\Sobot\Agents;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class SaveGroupAgent
@@ -26,7 +26,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method SaveGroupAgent agentIds($value) 多个坐席id用英文逗号","隔开
  * @method SaveGroupAgent whereGroupid(string $value) 技能组id
  *
- * @package MuCTS\Sobot\Agents
+ * @package Ccwawamiya\Sobot\Agents
  */
 class SaveGroupAgent extends Sobot
 {

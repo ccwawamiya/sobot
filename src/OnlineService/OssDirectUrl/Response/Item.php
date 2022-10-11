@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\OssDirectUrl\Response;
+namespace Ccwawamiya\Sobot\OnlineService\OssDirectUrl\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 
 /**
  * Class Item
  * @property-read string $url 跳转地址
- * @package MuCTS\Sobot\OnlineService\OssDirectUrl\Response
+ * @package Ccwawamiya\Sobot\OnlineService\OssDirectUrl\Response
  */
 class Item extends Response
 {

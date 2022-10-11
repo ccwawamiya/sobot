@@ -10,15 +10,15 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\UploadFile\Response;
+namespace Ccwawamiya\Sobot\Tickets\UploadFile\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
  * @property-read string $file_url 文件路径
- * @package MuCTS\Sobot\Tickets\UploadFile\Response
+ * @package Ccwawamiya\Sobot\Tickets\UploadFile\Response
  */
 class Item extends Response
 {

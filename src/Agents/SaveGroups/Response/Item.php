@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\SaveGroups\Response;
+namespace Ccwawamiya\Sobot\Agents\SaveGroups\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
@@ -21,7 +21,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $group_name 技能组名称
  * @property-read int $group_type 技能组类型，0工单客服组，1在线客服组，2电话客服组，3 电销组
  * @property-read string $group_type_cn 技能组类型
- * @package MuCTS\Sobot\Agents\SaveGroups\Response
+ * @package Ccwawamiya\Sobot\Agents\SaveGroups\Response
  */
 class Item extends Response
 {

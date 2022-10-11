@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\QueryDepartments\Response;
+namespace Ccwawamiya\Sobot\Agents\QueryDepartments\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Items
@@ -25,7 +25,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $depart_type_cn 部门职能
  * @property-read string $parentid 所属父级部门ID
  * @property-read Items[] $sub_department_list 子级部门信息
- * @package MuCTS\Sobot\Agents\QueryDepartments\Response
+ * @package Ccwawamiya\Sobot\Agents\QueryDepartments\Response
  */
 class Items extends Response
 {

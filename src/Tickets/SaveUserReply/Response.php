@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\SaveUserReply;
+namespace Ccwawamiya\Sobot\Tickets\SaveUserReply;
 
 
 /**
  * Class Response
  * @property-read string $ret_code
  * @property-read string $ret_msg
- * @package MuCTS\Sobot\Tickets\SaveUserReply
+ * @package Ccwawamiya\Sobot\Tickets\SaveUserReply
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

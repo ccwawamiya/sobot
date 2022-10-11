@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\DeleteGroups;
+namespace Ccwawamiya\Sobot\Agents\DeleteGroups;
 
 /**
  * Class Request
  *
  * @method Request whereGroupid(string $value) 技能组id
  *
- * @package MuCTS\Sobot\Agents\DeleteGroups
+ * @package Ccwawamiya\Sobot\Agents\DeleteGroups
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

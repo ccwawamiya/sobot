@@ -10,13 +10,13 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\TicketExtendFields;
+namespace Ccwawamiya\Sobot\Tickets\TicketExtendFields;
 
 /**
  * Class Response
- * @package MuCTS\Sobot\Tickets\TicketExtendFields
+ * @package Ccwawamiya\Sobot\Tickets\TicketExtendFields
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

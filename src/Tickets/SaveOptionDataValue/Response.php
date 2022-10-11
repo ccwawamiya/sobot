@@ -10,15 +10,15 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\SaveOptionDataValue;
+namespace Ccwawamiya\Sobot\Tickets\SaveOptionDataValue;
 
 /**
  * Class Response
  * @property-read string $ret_code
  * @property-read string $ret_msg
- * @package MuCTS\Sobot\Tickets\SaveOptionDataValue
+ * @package Ccwawamiya\Sobot\Tickets\SaveOptionDataValue
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

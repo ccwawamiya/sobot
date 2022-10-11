@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\QueryEnterprises;
+namespace Ccwawamiya\Sobot\Users\QueryEnterprises;
 
 
-use MuCTS\Sobot\Users\QueryEnterprises\Response\Items;
+use Ccwawamiya\Sobot\Users\QueryEnterprises\Response\Items;
 
 /**
  * Class Response
@@ -24,9 +24,9 @@ use MuCTS\Sobot\Users\QueryEnterprises\Response\Items;
  * @property-read int $page_no 起始页
  * @property-read int $page_size 每页条数
  * @property-read int $total_count 数据条数
- * @package MuCTS\Sobot\Users\QueryEnterprises
+ * @package Ccwawamiya\Sobot\Users\QueryEnterprises
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

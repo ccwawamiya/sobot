@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\ChatConnect;
+namespace Ccwawamiya\Sobot\OnlineService\ChatConnect;
 
 /**
  * Class Request
@@ -40,9 +40,9 @@ namespace MuCTS\Sobot\OnlineService\ChatConnect;
  * @method  Request userName(?string $userName) 用户真实姓名
  * @method  Request userNick(?string $userNick) 用户昵称
  * @method  Request userImg(?string $userImg) 用户头像
- * @package MuCTS\Sobot\OnlineService\ChatConnect\Request
+ * @package Ccwawamiya\Sobot\OnlineService\ChatConnect\Request
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

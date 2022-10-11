@@ -10,18 +10,18 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\QueryUserFixedExtendFields\Response;
+namespace Ccwawamiya\Sobot\Users\QueryUserFixedExtendFields\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
-use MuCTS\Sobot\Users\QueryUserFixedExtendFields\Response\Item\ExtendFields;
+use Ccwawamiya\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Users\QueryUserFixedExtendFields\Response\Item\ExtendFields;
 
 /**
  * Class Item
  * @property-read string $companyid 公司ID
  * @property-read string $operate_type 自定义字段类型,客户自定义字段
  * @property-read ExtendFields[] $extend_fields 扩展字段列表	
- * @package MuCTS\Sobot\Users\QueryUserFixedExtendFields\Response
+ * @package Ccwawamiya\Sobot\Users\QueryUserFixedExtendFields\Response
  */
 class Item extends Response
 {

@@ -1,14 +1,14 @@
 <?php
 
 
-namespace MuCTS\Sobot\Contracts;
+namespace Ccwawamiya\Sobot\Contracts;
 
 
-use MuCTS\Sobot\Exceptions\NotFoundException;
+use Ccwawamiya\Sobot\Exceptions\NotFoundException;
 
 /**
  * Class Response
- * @package MuCTS\Sobot\Contracts
+ * @package Ccwawamiya\Sobot\Contracts
  */
 abstract class Response
 {

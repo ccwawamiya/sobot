@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\QueryGroupAgents\Response;
+namespace Ccwawamiya\Sobot\Agents\QueryGroupAgents\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Items
@@ -32,7 +32,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read int $agent_status 坐席状态，0未激活，1启用中，2平台管控，9停用，-1删除
  * @property-read string $agent_status_cn 坐席状态
  * @property-read string $update_time 更新时间
- * @package MuCTS\Sobot\Agents\QueryAgents\Response
+ * @package Ccwawamiya\Sobot\Agents\QueryAgents\Response
  */
 class Items extends Response
 {

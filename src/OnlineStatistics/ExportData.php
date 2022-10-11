@@ -10,9 +10,9 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics;
+namespace Ccwawamiya\Sobot\OnlineStatistics;
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class ExportData
@@ -26,7 +26,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  *
  * @method ExportData whereTaskType(int $value) 任务类型, 1:visit, 2:conversation, 3:evaluation, 4:msg, 5:user, 6:ticket
  * @method ExportData whereDate(string $value) 日期, 日期（yyyy-MM-dd）
- * @package MuCTS\Sobot\OnlineStatistics
+ * @package Ccwawamiya\Sobot\OnlineStatistics
  */
 class ExportData extends Sobot
 {

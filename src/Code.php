@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MuCTS\Sobot;
+namespace Ccwawamiya\Sobot;
 
 
 class Code

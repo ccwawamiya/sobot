@@ -10,17 +10,17 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\OfflineMsgData\Response;
+namespace Ccwawamiya\Sobot\OnlineService\OfflineMsgData\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
-use MuCTS\Sobot\OnlineService\OfflineMsgData\Response\Item\MsgData;
+use Ccwawamiya\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\OnlineService\OfflineMsgData\Response\Item\MsgData;
 
 /**
  * Class Item
  * @property-read int $size 离线消息数
  * @property-read MsgData[] $msg_data 客服列表及对应客服发送的消息列表
- * @package MuCTS\Sobot\OnlineService\OfflineMsgData\Response
+ * @package Ccwawamiya\Sobot\OnlineService\OfflineMsgData\Response
  */
 class Item extends Response
 {

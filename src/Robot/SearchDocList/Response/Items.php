@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\SearchDocList\Response;
+namespace Ccwawamiya\Sobot\Robot\SearchDocList\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Items
@@ -39,7 +39,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $updateid 更新人ID
  * @property-read string $update_time 更新时间
  * @property-read int $used_flag 词条状态，0启用，1手动停用，2系统停用，3过期停用
- * @package MuCTS\Sobot\Robot\SearchDocList\Response
+ * @package Ccwawamiya\Sobot\Robot\SearchDocList\Response
  */
 class Items extends Response
 {

@@ -10,18 +10,18 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\QueryGroupAgents;
+namespace Ccwawamiya\Sobot\Agents\QueryGroupAgents;
 
-use MuCTS\Sobot\Agents\QueryGroupAgents\Response\Items;
+use Ccwawamiya\Sobot\Agents\QueryGroupAgents\Response\Items;
 
 /**
  * Class Response
  * @property-read string $ret_code 返回编码
  * @property-read string $ret_msg 返回信息
  * @property-read Items[] $items 对象列表
- * @package MuCTS\Sobot\Agents\QueryAgents
+ * @package Ccwawamiya\Sobot\Agents\QueryAgents
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

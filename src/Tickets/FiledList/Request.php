@@ -10,14 +10,14 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\FiledList;
+namespace Ccwawamiya\Sobot\Tickets\FiledList;
 
 /**
  * Class Request
  * @method  Request whereTicketTypeid(string $ticketTypeid) 工单分类ID
- * @package MuCTS\Sobot\Tickets\FiledList
+ * @package Ccwawamiya\Sobot\Tickets\FiledList
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

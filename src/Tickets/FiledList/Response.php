@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\FiledList;
+namespace Ccwawamiya\Sobot\Tickets\FiledList;
 
-use MuCTS\Sobot\Tickets\FiledList\Response\Items;
+use Ccwawamiya\Sobot\Tickets\FiledList\Response\Items;
 
 /**
  * Class Response
  * @property-read Items[] $items 返回集合
- * @package MuCTS\Sobot\Tickets\FiledList
+ * @package Ccwawamiya\Sobot\Tickets\FiledList
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

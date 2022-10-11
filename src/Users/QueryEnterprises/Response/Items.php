@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\QueryEnterprises\Response;
+namespace Ccwawamiya\Sobot\Users\QueryEnterprises\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Items
@@ -21,7 +21,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $enterpriseid 企业ID
  * @property-read string $enterprise_name 企业名称
  * @property-read string $create_datetime 创建时间,2018-07-10 00:00:00
- * @package MuCTS\Sobot\Users\QueryEnterprises\Response
+ * @package Ccwawamiya\Sobot\Users\QueryEnterprises\Response
  */
 class Items extends Response
 {

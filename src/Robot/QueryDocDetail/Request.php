@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\QueryDocDetail;
+namespace Ccwawamiya\Sobot\Robot\QueryDocDetail;
 
 
 /**
  * Class Request
  * @method Request whereDocid(string $value) 词条Id
  * @method Request whereRobotFlag(int $value) 知识库所属机器人：0公共知识库，1机器人一
- * @package MuCTS\Sobot\Robot\QueryDocDetail
+ * @package Ccwawamiya\Sobot\Robot\QueryDocDetail
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

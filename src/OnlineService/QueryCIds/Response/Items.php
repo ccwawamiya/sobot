@@ -10,17 +10,17 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\QueryCIds\Response;
+namespace Ccwawamiya\Sobot\OnlineService\QueryCIds\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Items
  * @property-read string $cid 会话ID
  * @property-read int $start_date_time 会话时间,毫秒
  * @property-read string $visitorid
- * @package MuCTS\Sobot\OnlineService\QueryCIds\Response
+ * @package Ccwawamiya\Sobot\OnlineService\QueryCIds\Response
  */
 class Items extends Response
 {

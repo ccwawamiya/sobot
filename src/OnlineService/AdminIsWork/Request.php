@@ -10,14 +10,14 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\AdminIsWork;
+namespace Ccwawamiya\Sobot\OnlineService\AdminIsWork;
 
 /**
  * Class Request
  * @method Request whereGroupid(?string $value) 技能组id
- * @package MuCTS\Sobot\OnlineService\AdminIsWork
+ * @package Ccwawamiya\Sobot\OnlineService\AdminIsWork
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

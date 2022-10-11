@@ -10,17 +10,17 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\Comment\Response;
+namespace Ccwawamiya\Sobot\OnlineService\Comment\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
  * @property-read int $status  状态：0.失败，1.成功，2-已评价，3-无咨询，不能评价
  * @property-read string $status_cn 状态
  * @property-read string cid  会话ID
- * @package MuCTS\Sobot\OnlineService\Comment\Response
+ * @package Ccwawamiya\Sobot\OnlineService\Comment\Response
  */
 class Item extends Response
 {

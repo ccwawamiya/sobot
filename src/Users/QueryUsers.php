@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users;
+namespace Ccwawamiya\Sobot\Users;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class QueryUsers
@@ -31,7 +31,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method QueryUsers whereEndDatetime(string $value) 结束时间（创建）,2018-07-10 23:59:59
  * @method QueryUsers pageNo(int $value) 起始页码 ,1
  * @method QueryUsers pageSize(int $value) 每页条数 ,默认每页15条
- * @package MuCTS\Sobot\Users
+ * @package Ccwawamiya\Sobot\Users
  */
 class QueryUsers extends Sobot
 {

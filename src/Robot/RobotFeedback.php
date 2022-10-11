@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot;
+namespace Ccwawamiya\Sobot\Robot;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class RobotFeedback
@@ -45,7 +45,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  *
  * 注：如没有visitorid,可传入partnerid、from三个字段代替
  *
- * @package MuCTS\Sobot\Robot
+ * @package Ccwawamiya\Sobot\Robot
  */
 class RobotFeedback extends Sobot
 {

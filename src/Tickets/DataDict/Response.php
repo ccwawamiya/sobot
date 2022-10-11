@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\DataDict;
+namespace Ccwawamiya\Sobot\Tickets\DataDict;
 
-use MuCTS\Sobot\Tickets\DataDict\Response\Item;
+use Ccwawamiya\Sobot\Tickets\DataDict\Response\Item;
 
 /**
  * Class Response
  * @property-read Item $item
- * @package MuCTS\Sobot\Tickets\DataDict
+ * @package Ccwawamiya\Sobot\Tickets\DataDict
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

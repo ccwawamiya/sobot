@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\GetUserById\Response;
+namespace Ccwawamiya\Sobot\Users\GetUserById\Response;
 
 
-class Item extends \MuCTS\Sobot\Users\GetUserByEmail\Response\Item
+class Item extends \Ccwawamiya\Sobot\Users\GetUserByEmail\Response\Item
 {
 
 }

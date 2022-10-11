@@ -10,16 +10,16 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\GetUserByPartnerId;
+namespace Ccwawamiya\Sobot\Users\GetUserByPartnerId;
 
 /**
  * Class Request
  *
  * @method Request wherePartnerid(string $value) 对接ID, 此参数只允许单一值
  *
- * @package MuCTS\Sobot\Users\GetUserByPartnerId
+ * @package Ccwawamiya\Sobot\Users\GetUserByPartnerId
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

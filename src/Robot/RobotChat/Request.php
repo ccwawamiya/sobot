@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot\RobotChat;
+namespace Ccwawamiya\Sobot\Robot\RobotChat;
 
 /**
  * Class Request
@@ -30,9 +30,9 @@ namespace MuCTS\Sobot\Robot\RobotChat;
  * @method  Request questionFlag(?int $value) 问题类型，问题类型：点击-1，输入-0，多轮会话中点击-2
  * @method  Request requestText(?string $value) 问题内容，questionFlag = 0时，传入原问题； questionFlag = 1时，传入docId； questionFlag = 2时，示例参照表格下方详解
  *
- * @package MuCTS\Sobot\Robot\RobotChat
+ * @package Ccwawamiya\Sobot\Robot\RobotChat
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

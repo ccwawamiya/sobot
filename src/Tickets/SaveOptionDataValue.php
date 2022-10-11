@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets;
+namespace Ccwawamiya\Sobot\Tickets;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class SaveOptionDataValue
@@ -25,7 +25,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method SaveOptionDataValue pushFieldDataValueItem(string $fieldValue, string $fieldText) 追加工单自定义字段选项信息
  * @method SaveOptionDataValue agentid(string $agentid) 操作坐席ID
  * @method SaveOptionDataValue agentName(string $agentName) 操作坐席名称
- * @package MuCTS\Sobot\Tickets
+ * @package Ccwawamiya\Sobot\Tickets
  */
 class SaveOptionDataValue extends Sobot
 {

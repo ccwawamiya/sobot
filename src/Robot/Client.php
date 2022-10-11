@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Robot;
+namespace Ccwawamiya\Sobot\Robot;
 
 
-use MuCTS\Sobot\Contracts\Container;
+use Ccwawamiya\Sobot\Contracts\Container;
 
 /**
  * Class Client
@@ -26,7 +26,7 @@ use MuCTS\Sobot\Contracts\Container;
  * @method SearchDocList searchDocList() 查询知识库词条列表
  * @method SearchQuestionTypeList searchQuestionTypeList() 查询知识库分类列表
  * @method UpdateRobotDoc updateRobotDoc() 修改知识库词条
- * @package MuCTS\Sobot\Robot
+ * @package Ccwawamiya\Sobot\Robot
  */
 class Client extends Container
 {

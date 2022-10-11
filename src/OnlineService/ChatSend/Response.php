@@ -10,19 +10,19 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\ChatSend;
+namespace Ccwawamiya\Sobot\OnlineService\ChatSend;
 
 
-use MuCTS\Sobot\OnlineService\ChatSend\Response\Item;
+use Ccwawamiya\Sobot\OnlineService\ChatSend\Response\Item;
 
 /**
  * Class Response
  * @property-read string $ret_code
  * @property-read string $ret_msg
  * @property-read Item $item
- * @package MuCTS\Sobot\OnlineService\ChatSend
+ * @package Ccwawamiya\Sobot\OnlineService\ChatSend
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

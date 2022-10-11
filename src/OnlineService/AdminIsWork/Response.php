@@ -10,19 +10,19 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\AdminIsWork;
+namespace Ccwawamiya\Sobot\OnlineService\AdminIsWork;
 
 
-use MuCTS\Sobot\OnlineService\AdminIsWork\Response\Item;
+use Ccwawamiya\Sobot\OnlineService\AdminIsWork\Response\Item;
 
 /**
  * Class Response
  * @property-read string $ret_code
  * @property-read string $ret_msg
  * @property-read Item $item
- * @package MuCTS\Sobot\OnlineService\AdminIsWork
+ * @package Ccwawamiya\Sobot\OnlineService\AdminIsWork
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

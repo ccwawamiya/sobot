@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\DataDict\Response\Item;
+namespace Ccwawamiya\Sobot\Tickets\DataDict\Response\Item;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class TicketLevelList
@@ -21,7 +21,7 @@ use MuCTS\Sobot\Contracts\Response;
  *
  * @property-read string $dict_value 工单优先级CODE
  * @property-read string $dict_name 工单优先级名称
- * @package MuCTS\Sobot\Tickets\DataDict\Response\Item
+ * @package Ccwawamiya\Sobot\Tickets\DataDict\Response\Item
  */
 class TicketLevelList extends Response
 {

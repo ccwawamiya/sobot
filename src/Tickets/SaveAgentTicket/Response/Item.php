@@ -10,15 +10,15 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\SaveAgentTicket\Response;
+namespace Ccwawamiya\Sobot\Tickets\SaveAgentTicket\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
  * @property-read string $ticketid 工单ID
- * @package MuCTS\Sobot\Tickets\SaveAgentTicket\Response
+ * @package Ccwawamiya\Sobot\Tickets\SaveAgentTicket\Response
  */
 class Item extends Response
 {

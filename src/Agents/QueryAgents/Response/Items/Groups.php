@@ -10,14 +10,14 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\QueryAgents\Response\Items;
+namespace Ccwawamiya\Sobot\Agents\QueryAgents\Response\Items;
 
 
-use MuCTS\Sobot\Agents\QueryGroups\Response\Items;
+use Ccwawamiya\Sobot\Agents\QueryGroups\Response\Items;
 
 /**
  * Class Groups
- * @package MuCTS\Sobot\Agents\QueryAgents\Response\Items
+ * @package Ccwawamiya\Sobot\Agents\QueryAgents\Response\Items
  */
 class Groups extends Items
 {

@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\UpdateUser;
+namespace Ccwawamiya\Sobot\Users\UpdateUser;
 
 /**
  * Class Request
@@ -41,9 +41,9 @@ namespace MuCTS\Sobot\Users\UpdateUser;
  *
  * @method Request whereUserid(string $value) 客户ID
  *
- * @package MuCTS\Sobot\Users\UpdateUser
+ * @package Ccwawamiya\Sobot\Users\UpdateUser
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

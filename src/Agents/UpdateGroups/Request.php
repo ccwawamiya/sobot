@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\UpdateGroups;
+namespace Ccwawamiya\Sobot\Agents\UpdateGroups;
 
 /**
  * Class Request
@@ -19,9 +19,9 @@ namespace MuCTS\Sobot\Agents\UpdateGroups;
  *
  * @method Request groupName(string $value) 技能组名称
  * @method Request whereGroupid(string $value) 技能组id
- * @package MuCTS\Sobot\Agents\UpdateGroups
+ * @package Ccwawamiya\Sobot\Agents\UpdateGroups
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

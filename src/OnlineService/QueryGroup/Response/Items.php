@@ -10,17 +10,17 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\QueryGroup\Response;
+namespace Ccwawamiya\Sobot\OnlineService\QueryGroup\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Items
  * @property-read string $groupid 技能组id
  * @property-read string $group_name 技能组名称
  * @property-read int $create_time 创建时间（秒级时间戳）
- * @package MuCTS\Sobot\OnlineService\QueryGroup\Response
+ * @package Ccwawamiya\Sobot\OnlineService\QueryGroup\Response
  */
 class Items extends Response
 {

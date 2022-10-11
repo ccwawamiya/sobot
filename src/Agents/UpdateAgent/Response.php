@@ -10,18 +10,18 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents\UpdateAgent;
+namespace Ccwawamiya\Sobot\Agents\UpdateAgent;
 
-use MuCTS\Sobot\Agents\UpdateAgent\Response\Item;
+use Ccwawamiya\Sobot\Agents\UpdateAgent\Response\Item;
 
 /**
  * Class Response
  * @property-read string $ret_code 返回编码
  * @property-read string $ret_msg 返回信息
  * @property-read Item $item 返回对象
- * @package MuCTS\Sobot\Agents\UpdateAgent
+ * @package Ccwawamiya\Sobot\Agents\UpdateAgent
  */
-class Response extends \MuCTS\Sobot\Contracts\Request
+class Response extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

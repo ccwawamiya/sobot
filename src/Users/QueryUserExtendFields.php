@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users;
+namespace Ccwawamiya\Sobot\Users;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class QueryUserExtendFields
@@ -25,7 +25,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * 备注：
  * 1、此处查询为客户自定义字段配置信息，如需要获取某一个客户相对应的自定义字段值时需要请求独立接口。
  *
- * @package MuCTS\Sobot\Users
+ * @package Ccwawamiya\Sobot\Users
  */
 class QueryUserExtendFields extends Sobot
 {

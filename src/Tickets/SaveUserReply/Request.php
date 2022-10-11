@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\SaveUserReply;
+namespace Ccwawamiya\Sobot\Tickets\SaveUserReply;
 
 /**
  * Class Request
@@ -21,9 +21,9 @@ namespace MuCTS\Sobot\Tickets\SaveUserReply;
  * @method Request ticketid($ticketid) 工单ID
  * @method Request replyContent($replyContent) 工单回复内容
  * @method Request fileStr($fileStr) 回复附件路径，多个附件，附件之间采用英文分号";"隔开
- * @package MuCTS\Sobot\Tickets\SaveUserReply
+ * @package Ccwawamiya\Sobot\Tickets\SaveUserReply
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

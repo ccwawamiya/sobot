@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Agents;
+namespace Ccwawamiya\Sobot\Agents;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class UpdateAgent
@@ -41,7 +41,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * @method UpdateAgent phoneNo(string $value) 坐席手机号
  * @method UpdateAgent agentStatus(int $value) 坐席状态，0未激活，1启用中，9停用，-1删除 (坐席状态是已启用可以修改为停用，反之停用可以修改为启用，其余状态不可修改)
  *
- * @package MuCTS\Sobot\Agents
+ * @package Ccwawamiya\Sobot\Agents
  */
 class UpdateAgent extends Sobot
 {

@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\QueryUserExtendFieldValues\Response\Item;
+namespace Ccwawamiya\Sobot\Users\QueryUserExtendFieldValues\Response\Item;
 
 
-class ExtendFieldValues extends \MuCTS\Sobot\Users\GetUserByEmail\Response\Item\ExtendFieldValues
+class ExtendFieldValues extends \Ccwawamiya\Sobot\Users\GetUserByEmail\Response\Item\ExtendFieldValues
 {
 
 }

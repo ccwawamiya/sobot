@@ -1,10 +1,10 @@
 <?php
 
 
-namespace MuCTS\Sobot\Token\Token;
+namespace Ccwawamiya\Sobot\Token\Token;
 
 
-use \MuCTS\Sobot\Contracts\Request as RequestContract;
+use \Ccwawamiya\Sobot\Contracts\Request as RequestContract;
 
 class Request extends RequestContract
 {

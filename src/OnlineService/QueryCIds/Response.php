@@ -10,18 +10,18 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\QueryCIds;
+namespace Ccwawamiya\Sobot\OnlineService\QueryCIds;
 
-use MuCTS\Sobot\OnlineService\QueryCIds\Response\Items;
+use Ccwawamiya\Sobot\OnlineService\QueryCIds\Response\Items;
 
 /**
  * Class Response
  * @property-read string $ret_code
  * @property-read string $ret_msg
  * @property-read Items[] $item 对象列表
- * @package MuCTS\Sobot\OnlineService\QueryCIds
+ * @package Ccwawamiya\Sobot\OnlineService\QueryCIds
  */
-class Response extends \MuCTS\Sobot\Contracts\Response
+class Response extends \Ccwawamiya\Sobot\Contracts\Response
 {
 
 }

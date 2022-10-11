@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\DataDict\Response\Item;
+namespace Ccwawamiya\Sobot\Tickets\DataDict\Response\Item;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class AgentList
@@ -21,7 +21,7 @@ use MuCTS\Sobot\Contracts\Response;
  *
  * @property-read string $agentid 坐席ID
  * @property-read string $agent_name  坐席名称
- * @package MuCTS\Sobot\Tickets\DataDict\Response\Item
+ * @package Ccwawamiya\Sobot\Tickets\DataDict\Response\Item
  */
 class AgentList extends Response
 {

@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineStatistics\CustomerSession\Response;
+namespace Ccwawamiya\Sobot\OnlineStatistics\CustomerSession\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class Item
@@ -23,7 +23,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $avg_session_duration 平均总会话接待时长
  * @property-read string $avg_total_session_duration 平均总会话时长
  * @property-read int $total_invalid_session 总无效会话
- * @package MuCTS\Sobot\OnlineStatistics\CustomerSession\Response
+ * @package Ccwawamiya\Sobot\OnlineStatistics\CustomerSession\Response
  */
 class Item extends Response
 {

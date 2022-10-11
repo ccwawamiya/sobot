@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\OnlineService\GetOnceData\Response\Item;
+namespace Ccwawamiya\Sobot\OnlineService\GetOnceData\Response\Item;
 
 
-use MuCTS\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Contracts\Response;
 
 /**
  * Class AdminList
@@ -32,7 +32,7 @@ use MuCTS\Sobot\Contracts\Response;
  * @property-read string $agent_nick 客服昵称
  * @property-read int max_count 客服最大接待量
  * @property-read string status_time 状态持续时长 格式：hh:mm:ss
- * @package MuCTS\Sobot\OnlineService\GetOnceData\Response\Item
+ * @package Ccwawamiya\Sobot\OnlineService\GetOnceData\Response\Item
  */
 class AdminList extends Response
 {

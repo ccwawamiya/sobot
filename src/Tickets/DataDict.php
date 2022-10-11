@@ -10,10 +10,10 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets;
+namespace Ccwawamiya\Sobot\Tickets;
 
 
-use MuCTS\Sobot\Contracts\Sobot;
+use Ccwawamiya\Sobot\Contracts\Sobot;
 
 /**
  * Class DataDict
@@ -22,7 +22,7 @@ use MuCTS\Sobot\Contracts\Sobot;
  * 接口说明：
  * 数据字典包含：工单分类、工单状态、工单优先级、抄送数据其中抄送，工单分类为动态字典项，返回数据会随企业自身配置会发生变化。需要上述数据具体值时，请调用此接口获取。
  *
- * @package MuCTS\Sobot\Tickets
+ * @package Ccwawamiya\Sobot\Tickets
  */
 class DataDict extends Sobot
 {

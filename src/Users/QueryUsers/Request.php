@@ -10,7 +10,7 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Users\QueryUsers;
+namespace Ccwawamiya\Sobot\Users\QueryUsers;
 
 /**
  * Class Request
@@ -23,9 +23,9 @@ namespace MuCTS\Sobot\Users\QueryUsers;
  * @method Request whereEndDatetime(string $value) 结束时间（创建）, 2018-07-10 23:59:59
  * @method Request pageNo(int $value) 起始页码, 1
  * @method Request pageSize(int $value) 每页条数, 默认每页15条
- * @package MuCTS\Sobot\Users\QueryUsers
+ * @package Ccwawamiya\Sobot\Users\QueryUsers
  */
-class Request extends \MuCTS\Sobot\Contracts\Request
+class Request extends \Ccwawamiya\Sobot\Contracts\Request
 {
 
 }

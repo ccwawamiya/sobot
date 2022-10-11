@@ -10,11 +10,11 @@
  * @copyright © 2020  MuCTS.com All Rights Reserved.
  */
 
-namespace MuCTS\Sobot\Tickets\FiledList\Response;
+namespace Ccwawamiya\Sobot\Tickets\FiledList\Response;
 
 
-use MuCTS\Sobot\Contracts\Response;
-use MuCTS\Sobot\Tickets\FiledList\Response\Items\FieldDataList;
+use Ccwawamiya\Sobot\Contracts\Response;
+use Ccwawamiya\Sobot\Tickets\FiledList\Response\Items\FieldDataList;
 
 /**
  * Class Items
@@ -23,7 +23,7 @@ use MuCTS\Sobot\Tickets\FiledList\Response\Items\FieldDataList;
  * @property-read int $field_type 自定义字段类型:1单行文本，2多行文本，3日期，4时间，5 数值，6下拉列表，7复选框，8单选框
  * @property-read int $fill_flag 自定义字段是否必填:0 否 1 是
  * @property-read FieldDataList[]|null field_data_list 选择型字段的选项信息
- * @package MuCTS\Sobot\Tickets\FiledList\Response
+ * @package Ccwawamiya\Sobot\Tickets\FiledList\Response
  */
 class Items extends Response
 {
