@@ -10,7 +10,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "MuCTS\\Sobot\\": "src/"
+            "Ccwawamiya\\Sobot\\": "src/"
         },
         "files": [
             "src/Helpers.php"
