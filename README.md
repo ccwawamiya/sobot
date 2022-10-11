@@ -1,11 +1,11 @@
 <p align="center"><img src="https://images.mucts.com/image/exp_def_white.png" width="400"></p>
 <p align="center">
-    <a href="https://scrutinizer-ci.com/g/mucts/sobot"><img src="https://scrutinizer-ci.com/g/mucts/sobot/badges/build.png" alt="Build Status"></a>
-    <a href="https://scrutinizer-ci.com/g/mucts/sobot"><img src="https://scrutinizer-ci.com/g/mucts/sobot/badges/code-intelligence.svg" alt="Code Intelligence Status"></a>
-    <a href="https://scrutinizer-ci.com/g/mucts/sobot"><img src="https://scrutinizer-ci.com/g/mucts/sobot/badges/quality-score.png" alt="Scrutinizer Code Quality"></a>
-    <a href="https://packagist.org/packages/mucts/sobot"><img src="https://poser.pugx.org/mucts/sobot/d/total.svg" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/mucts/sobot"><img src="https://poser.pugx.org/mucts/sobot/v/stable.svg" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/mucts/sobot"><img src="https://poser.pugx.org/mucts/sobot/license.svg" alt="License"></a>
+    <a href="https://scrutinizer-ci.com/g/ccwawamiya/sobot"><img src="https://scrutinizer-ci.com/g/ccwawamiya/sobot/badges/build.png" alt="Build Status"></a>
+    <a href="https://scrutinizer-ci.com/g/ccwawamiya/sobot"><img src="https://scrutinizer-ci.com/g/ccwawamiya/sobot/badges/code-intelligence.svg" alt="Code Intelligence Status"></a>
+    <a href="https://scrutinizer-ci.com/g/ccwawamiya/sobot"><img src="https://scrutinizer-ci.com/g/ccwawamiya/sobot/badges/quality-score.png" alt="Scrutinizer Code Quality"></a>
+    <a href="https://packagist.org/packages/ccwawamiya/sobot"><img src="https://poser.pugx.org/ccwawamiya/sobot/d/total.svg" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/ccwawamiya/sobot"><img src="https://poser.pugx.org/ccwawamiya/sobot/v/stable.svg" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/ccwawamiya/sobot"><img src="https://poser.pugx.org/ccwawamiya/sobot/license.svg" alt="License"></a>
 </p>
 
 # Sobot 
@@ -14,7 +14,7 @@
 ## 安装
 
 ```
-composer require mucts/sobot
+composer require ccwawamiya/sobot
 ```
 
 ## 功能
